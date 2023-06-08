@@ -1,0 +1,13 @@
+.footer {
+  height: 300px; /* Momentaneamente */
+  width: 100%;
+  background-color: rgb(6, 52, 100);
+}
+
+.footerContainer {
+  max-width: 1366px;
+  margin: auto;
+  padding: 2rem;
+  font-size: 1.2em;
+  text-align: center;
+}

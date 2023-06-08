@@ -5,10 +5,12 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-      <Datos></Datos>
-      <Derechos></Derechos>
-    </div>
+    <section className='footer'>
+      <div className='footerContainer'>
+        <Datos></Datos>
+        <Derechos></Derechos>
+      </div>
+    </section>
   );
 };
 

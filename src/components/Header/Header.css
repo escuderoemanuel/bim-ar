@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.headerContainer {
+  /* General del headerContainer */
+  max-width: 1366px;
+  margin: auto;
+
+  /* Para aplicar a los child del headerContainer */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+}

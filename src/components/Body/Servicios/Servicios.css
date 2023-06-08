@@ -1,0 +1,22 @@
+.servicios {
+  height: 500px; /* Momentaneamente */
+  width: 100%;
+  color: lightgray;
+  background-color: rgb(6, 52, 100);
+}
+
+.serviciosContainer {
+  max-width: 1366px;
+  margin: auto;
+  padding: 2rem;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.serviciosContainer img {
+  border-radius: 20px;
+  width: 300px;
+}

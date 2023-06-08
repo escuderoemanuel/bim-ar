@@ -6,11 +6,13 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div>
-      <Logo></Logo>
-      <Navbar></Navbar>
-      <Language></Language>
-    </div>
+    <section className='header'>
+      <div className='headerContainer'>
+        <Logo></Logo>
+        <Navbar></Navbar>
+        <Language></Language>
+      </div>
+    </section>
   );
 };
 
