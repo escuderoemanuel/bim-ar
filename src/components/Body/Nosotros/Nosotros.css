@@ -1,8 +1,8 @@
 .nosotros {
   height: 500px; /* Momentaneamente */
   width: 100%;
-  background-color: lightgray;
-  color: rgb(6, 52, 100);
+  background-color: var(--background-light);
+  color: var(--text);
 }
 
 .nosotrosContainer {

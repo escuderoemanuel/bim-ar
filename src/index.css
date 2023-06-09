@@ -1,13 +1,46 @@
 :root {
-  color: aliceblue;
+  color: var(--text-light);
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Mulish', sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  /* Paleta de Colores */
+  --background-light: #f4f4f4;
+  --background-hex: #ffffff;
+  --text: #303030;
+  --text-primary: #0071c7;
+  --text-secondary: #69c9ff;
+  --text-light: #d7d7d7;
+  --text-gray: #6c6c6c;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 44px;
+  font-size: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+body {
+  font-size: 20px;
+}
+
+button {
+  font-size: 23px;
+  font-weight: bold;
 }
