@@ -1,1 +1,125 @@
-{}
+{
+  "header": {
+    "logo": {
+      "url": "./assets/img/img-logo.svg",
+      "alt": "BiM.ar logo"
+    },
+    "navbar": {
+      "link1": "Home",
+      "link2": "About Us",
+      "link3": "Services",
+      "link4": "Contact"
+    }
+  },
+  "home": {
+    "line1": "We manage information",
+    "line2": "for ",
+    "span": "value creation",
+    "banner": {
+      "word1": "ARCHITECTURE",
+      "word2": "ENGINEERING",
+      "word3": "CONSTRUCTION"
+    }
+  },
+  "aboutUs": {
+    "title1": "About Us",
+    "title2": {
+      "line1": "We maximize",
+      "span1": " efficiency",
+      "line2": "and",
+      "span2": " productivity"
+    },
+    "paragraph1": "“BiMar” was born in 2019, with the aim of meeting the digitization and information management needs of the AECO sector, incorporating collaborative methodologies based on parametric modeling known as ",
+    "span": "Building Information Modeling (BIM).",
+    "paragraph2": "We are a team of professionals dedicated to accompanying companies' digital transformation processes, maximizing resources and value creation.",
+    "textBtn": "Contact Us",
+    "img": {
+      "url": "./assets/img/img-inicio.png",
+      "alt": "Building"
+    }
+  },
+  "services": {
+    "title1": "Our Services",
+    "paragraph1": "We provide Modeling and Information Management services under ISO Quality standards, allowing the exchange of information in an agile, complete, and consistent manner, from the beginning and throughout the life cycle of each project.",
+    "servicesList": {
+      "3d": {
+        "title": "3D",
+        "subtitle": "Analysis",
+        "text": "It allows finding solutions in the geometric modeling process. In this phase the viability of the construction is analyzed."
+      },
+      "4d": {
+        "title": "4D",
+        "subtitle": "Planning",
+        "text": "It allows early detection of possible problems in the design, as well as scheduling progress based on work periods and setting time goals."
+      },
+      "5d": {
+        "title": "5D",
+        "subtitle": "Budget estimate",
+        "text": "Cost information is incorporated into the model, which allows forecasting a budget based on all the information collected."
+      },
+      "6d": {
+        "title": "6D",
+        "subtitle": "Sustainability",
+        "text": "It allows the evaluation of the social, economic and environmental impact, as well as the energy efficiency studies that start from the model such as electrical, hydrosanitary, and HVAC."
+      },
+      "7d": {
+        "title": "7D",
+        "subtitle": "Management",
+        "text": "It allows operational management to be carried out throughout the useful life of the building or asset, also called Facility Management."
+      }
+    }
+  },
+  "contact": {
+    "title": "Do you have a project in mind?",
+    "subtitle": "Communicate with us and we’ll get in touch with you.",
+    "form": {
+      "label1": "Name",
+      "label2": "Email",
+      "label3": "Tell us more about your project.",
+      "textBtn": "Send"
+    },
+    "img": {
+      "url": "./assets/img/img-contacto.png",
+      "alt": "Cranes working"
+    }
+  },
+  "footer": {
+    "data": {
+      "section1": {
+        "logo": {
+          "url": "./assets/img/img-logo.svg",
+          "alt": "BiM.ar logo"
+        },
+        "social": {
+          "social1": {
+            "name": "LinkedIn",
+            "url": "./assets/social/linkedin.png"
+          },
+          "social2": {
+            "name": "Instagram",
+            "url": "./assets/social/instagram.png"
+          },
+          "social3": {
+            "name": "Facebook",
+            "url": "./assets/social/facebook.png"
+          }
+        }
+      },
+      "section2": {
+        "title": "Menu",
+        "link1": "Home",
+        "link2": "About Us",
+        "link3": "Services",
+        "link4": "Contact"
+      },
+      "section3": {
+        "urlMap": "./assets/img/img-map.svg",
+        "alt": "Map with pointer in Miami and Buenos Aires, where BiM.ar has offices."
+      }
+    },
+    "rights": {
+      "text1": "Copyright © 2023. All Rights Reserved",
+      "text2": "Terms and conditions | Privacy policies"
+    }
+  }
+}

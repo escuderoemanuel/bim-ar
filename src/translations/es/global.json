@@ -1,1 +1,125 @@
-{}
+{
+  "header": {
+    "logo": {
+      "url": "./assets/img/img-logo.svg",
+      "alt": "Logo de BiM.ar"
+    },
+    "navbar": {
+      "link1": "Inicio",
+      "link2": "Nosotros",
+      "link3": "Servicios",
+      "link4": "Contacto"
+    }
+  },
+  "home": {
+    "line1": "Gestionamos información",
+    "line2": "para la",
+    "span": "creación de valor",
+    "banner": {
+      "word1": "ARQUITECTURA",
+      "word2": "INGENIRÍA",
+      "word3": "CONSTRUCCIÓN"
+    }
+  },
+  "aboutUs": {
+    "title1": "Sobre Nosotros",
+    "title2": {
+      "line1": "Maximizamos la",
+      "span1": " eficiencia",
+      "line2": "y la",
+      "span2": "productividad"
+    },
+    "paragraph1": "“BiMar” nace en 2019, con el objetivo de cubrirlas necesidades de digitalización y gestión de la información del sector AECO, incorporando metodologías colaborativas a partir del modelado paramétrico conocido como",
+    "span": "Building Information Modeling (BIM).",
+    "paragraph2": "Somos un equipo de profesionales abocados a acompañar los procesos de transformación digital de las empresas, maximizando los recursos y creando valor.",
+    "textBtn": "Contáctanos",
+    "img": {
+      "url": "./assets/img/img-inicio.png",
+      "alt": "Edificio"
+    }
+  },
+  "services": {
+    "title1": "Nuestros Servicios",
+    "paragraph1": "Brindamos servicios de Modelado y de Gestión de la Información bajo estándares de Calidad ISO, permitiendo el intercambio de información de manera ágil, completa y consistente, desde el inicio y durante todo el ciclo de vida de cada proyecto.",
+    "servicesList": {
+      "3d": {
+        "title": "3D",
+        "subtitle": "Análisis",
+        "text": "Permite encontrar soluciones en el proceso de modelización geométrica. En esta fase se analiza la viabilidad de la construcción."
+      },
+      "4d": {
+        "title": "4D",
+        "subtitle": "Planificación",
+        "text": "Permite detectar tempranamente posibles problemas en el diseño, como así también programar los avances a partir de los periodos de trabajo y establecer metas temporales."
+      },
+      "5d": {
+        "title": "5D",
+        "subtitle": "Estimación de presupuesto",
+        "text": "Se incorporala información de costos al modelo, lo que permite prever un presupuesto, en base a toda la información recopilada."
+      },
+      "6d": {
+        "title": "6D",
+        "subtitle": "Sostenibilidad",
+        "text": "Permite evaluarel impacto social, económico y ambiental. Así como los estudios de eficiencia energética que parten del modelo como eléctrica, hidrosanitaria y HVAC."
+      },
+      "7d": {
+        "title": "7D",
+        "subtitle": "Gestión",
+        "text": "Permite realizar la gestión operativa a lo largo de la vida útil del edificio o activo, también llamada Facility Management."
+      }
+    }
+  },
+  "contact": {
+    "title": "¿Tienes en mente un proyecto?",
+    "subtitle": "Escríbenos y nos pondremos en contacto.",
+    "form": {
+      "label1": "Nombre",
+      "label2": "Correo",
+      "label3": "Cuéntanos mas acerca de tu proyecto",
+      "textBtn": "Enviar"
+    },
+    "img": {
+      "url": "./assets/img/img-contacto.png",
+      "alt": "Grúas trabajando"
+    }
+  },
+  "footer": {
+    "data": {
+      "section1": {
+        "logo": {
+          "url": "./assets/img/img-logo.svg",
+          "alt": "Logotipo de BiM.ar"
+        },
+        "social": {
+          "social1": {
+            "name": "LinkedIn",
+            "url": "./assets/social/linkedin.png"
+          },
+          "social2": {
+            "name": "Instagram",
+            "url": "./assets/social/instagram.png"
+          },
+          "social3": {
+            "name": "Facebook",
+            "url": "./assets/social/facebook.png"
+          }
+        }
+      },
+      "section2": {
+        "title": "Menú",
+        "link1": "Inicio",
+        "link2": "Nosotros",
+        "link3": "Servicios",
+        "link4": "Contacto"
+      },
+      "section3": {
+        "urlMap": "./assets/img/img-map.svg",
+        "alt": "Mapa con puntero en Miami y Buenos Aires, donde BiM.ar tiene oficinas."
+      }
+    },
+    "rights": {
+      "text1": "Copyright © 2023. All Rights Reserved",
+      "text2": "Terminos y condiciones | Politicas de privacidad"
+    }
+  }
+}
