@@ -1,13 +1,24 @@
 .inicio {
-  height: 500px; /* Momentaneamente */
+  min-height: 800px;
   width: 100%;
-  background-color: rgb(6, 52, 100);
-  padding-top: 80px;
+  background-image: url('src/assets/img/img-home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
 }
 
 .inicioContainer {
   max-width: 1366px;
   margin: auto;
   padding: 2rem;
-  font-size: 1.2em;
+  text-align: center;
+}
+
+.inicioContainer span {
+  color: var(--text-secondary);
+}
+
+.inicioContainer h1 {
+  font-weight: 900;
 }

@@ -1,0 +1,39 @@
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  position: relative;
+  right: 0;
+  top: 0;
+  margin: 0 1.5rem;
+}
+
+i {
+  font-size: 0px;
+  filter: invert();
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  width: auto;
+  padding: 0;
+  color: var(--text-light);
+  font-size: 1em;
+  border: none;
+  outline: none;
+}
+
+option {
+  background-color: var(--background-dark);
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .languages {
+    position: absolute;
+    right: 90px;
+    top: auto;
+  }
+}

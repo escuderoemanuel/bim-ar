@@ -1,0 +1,128 @@
+.navbar {
+  opacity: 1;
+  display: flex;
+  visibility: visible;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -1px;
+  width: auto;
+  height: auto;
+}
+
+.navbar a {
+  margin: 0 1.5rem;
+  padding: 0;
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 24px;
+  position: relative;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+.navbar a.active::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -12.5%;
+  width: 125%;
+  height: 3px;
+  background-color: var(--text-secondary);
+  transform: scaleY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.navbar a.active:hover::before {
+  transform: scaleY(1);
+}
+
+.toggle {
+  width: 30px;
+  height: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+  right: 0px;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-light);
+  transition: transform 0.5s;
+}
+
+.toggle:hover .line:nth-child(1) {
+  transform: scaleX(0.8);
+}
+.toggle:hover .line:nth-child(2) {
+  transform: scaleX(0.5);
+}
+.toggle:hover .line:nth-child(3) {
+  transform: scaleX(0.8);
+}
+
+.toggle.active .line:nth-child(1) {
+  transform: translateY(7.5px) scaleX(0.9) scaleY(1.1) rotate(150deg);
+}
+
+.toggle.active .line:nth-child(3) {
+  transform: translateY(-7.5px) scaleX(0.9) scaleY(1.1) rotate(30deg);
+}
+
+.toggle.active .line:nth-child(2) {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    z-index: 1;
+    top: 40px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
+      width 0.5s ease-in-out;
+    margin: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+  }
+  .navbar a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--text-light);
+    font-weight: 500;
+    margin: 0 2rem;
+    transition: 0.3s;
+  }
+
+  .toggle {
+    display: flex;
+  }
+  .visible {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
+      width 0.5s ease-in-out;
+    background-color: var(--background-dark);
+    height: 200px;
+    width: 200px;
+  }
+}

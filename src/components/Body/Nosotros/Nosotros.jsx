@@ -2,7 +2,7 @@ import React from 'react';
 import './Nosotros.css';
 const Nosotros = () => {
   return (
-    <section className='nosotros'>
+    <section className='nosotros' id='aboutUs'>
       <div className='nosotrosContainer'>
         <div>
           <h2>Nosotros</h2>

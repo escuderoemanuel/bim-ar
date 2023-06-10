@@ -1,19 +1,20 @@
 import React from 'react';
 import './Inicio.css';
+
+/* Translate */
+import { useTranslation } from 'react-i18next';
 const Inicio = () => {
+  /* i18next */
+  const [t, i18n] = useTranslation('global');
+
   return (
-    <section className='inicio'>
+    <section className='inicio' id='home'>
       <div className='inicioContainer'>
-        <h2>Inicio</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-          corporis necessitatibus, numquam nam alias doloribus voluptatum
-          dignissimos autem distinctio possimus maxime ea optio consequuntur
-          sequi voluptatem culpa odit reprehenderit tenetur. Rerum magnam sequi
-          cum sit voluptates. Illum fuga quasi ab placeat reprehenderit deleniti
-          sed! Distinctio minus impedit quo alias facilis id expedita dicta
-          dolore, voluptas recusandae, maxime deleniti fugit autem.
-        </p>
+        <h1>
+          {t('home.line1')} <br />
+          {t('home.line2')} <span> {t('home.span')}</span>
+        </h1>
+        <p></p>
       </div>
     </section>
   );

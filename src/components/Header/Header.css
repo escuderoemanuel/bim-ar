@@ -1,17 +1,29 @@
 .header {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.header.scrolled {
+  z-index: 999;
+  background-color: var(--background-dark);
 }
 
 .headerContainer {
   /* General del headerContainer */
   max-width: 1366px;
-  margin: auto;
+  margin: 0;
 
   /* Para aplicar a los child del headerContainer */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  position: relative;
+}
+
+.headerContainerRight {
+  display: flex;
 }

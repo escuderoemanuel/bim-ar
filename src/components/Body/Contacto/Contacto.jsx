@@ -2,7 +2,7 @@ import React from 'react';
 import './Contacto.css';
 const Contacto = () => {
   return (
-    <section className='contacto'>
+    <section className='contacto' id='contact'>
       <div className='contactoContainer'>
         <h2>Contacto</h2>
         <form action=''>

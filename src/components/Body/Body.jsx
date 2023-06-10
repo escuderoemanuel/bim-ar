@@ -8,7 +8,7 @@ import Proyectos from './Proyectos/Proyectos';
 
 const Body = () => {
   return (
-    <div>
+    <div className='body'>
       <Inicio></Inicio>
       <Nosotros></Nosotros>
       <Servicios></Servicios>

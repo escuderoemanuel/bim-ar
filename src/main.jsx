@@ -4,21 +4,21 @@ import App from './App.jsx';
 import './index.css';
 
 // Importaciones necesarias para el translate
-import global_en from './translations/en/global.json';
-import global_es from './translations/es/global.json';
+import translation_en from './translations/en/global.json';
+import translation_es from './translations/es/global.json';
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 
 // Creación translate init
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: 'en',
+  lng: 'es',
   resources: {
     en: {
-      global_en,
+      global: translation_en,
     },
     es: {
-      global_es,
+      global: translation_es,
     },
   },
 });

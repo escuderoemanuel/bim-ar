@@ -2,7 +2,7 @@ import React from 'react';
 import './Servicios.css';
 const Servicios = () => {
   return (
-    <section className='servicios'>
+    <section className='servicios' id='services'>
       <div className='serviciosContainer'>
         <div>
           <img src='https://acortar.link/ndQX8e' alt='' />
