@@ -1,20 +1,41 @@
-import React from 'react';
 import './Nosotros.css';
+import React from 'react';
+import imgNosotros from '../../../assets/img/img-nosotros.png';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-scroll';
+
 const Nosotros = () => {
+  /* i18next */
+  const [t, i18n] = useTranslation('global');
   return (
     <section className='nosotros' id='aboutUs'>
       <div className='nosotrosContainer'>
-        <div>
-          <h2>Nosotros</h2>
+        <div className='nosotrosText'>
+          <h3>{t('aboutUs.title1')}</h3>
+          <h2>
+            {t('aboutUs.title2.line1')}
+            <span> {t('aboutUs.title2.span1')}</span>
+            <br />
+            {t('aboutUs.title2.line2')}
+            <span> {t('aboutUs.title2.span2')}</span>
+          </h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
-            facere! Quaerat atque eum saepe, quas unde nam ipsam omnis quidem,
-            est illo soluta aliquid quo consequuntur perferendis dolores
-            consequatur pariatur.
+            {t('aboutUs.paragraph1')}
+            <span> {t('aboutUs.span')}</span>
           </p>
+          <br />
+          <p>{t('aboutUs.paragraph2')}</p>
+          <button>
+            <Link to='contact' smooth={true} duration={500}>
+              {t('aboutUs.textBtn')}
+              <i>
+                <box-icon name='right-arrow-alt'></box-icon>
+              </i>
+            </Link>
+          </button>
         </div>
         <div>
-          <img src='https://acortar.link/ndQX8e' alt='' />
+          <img src={imgNosotros} alt='' />
         </div>
       </div>
     </section>

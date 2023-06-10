@@ -1,23 +1,60 @@
 .nosotros {
-  height: 500px; /* Momentaneamente */
   width: 100%;
   background-color: var(--background-light);
   color: var(--text);
-  padding-top: 110px;
+  padding: 140px 54px;
 }
 
 .nosotrosContainer {
   max-width: 1366px;
   margin: auto;
-  padding: 2rem;
   font-size: 1.2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
+}
+
+.nosotros h3 {
+  color: var(--text-gray);
+}
+
+.nosotros h2 {
+  font-weight: 800;
+  margin: 0 0.5rem 1rem 0;
+}
+
+.nosotros h2 span {
+  color: var(--text-primary);
+}
+
+.nosotros p {
+  line-height: 1.1;
+}
+
+.nosotros p span {
+  font-weight: bold;
+}
+
+.nosotrosContainer button {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  background-color: var(--text-primary);
+  width: 240px;
+  height: 60px;
+  border-radius: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+i {
+  margin-left: 0.5rem;
 }
 
 .nosotrosContainer img {
   border-radius: 20px;
-  width: 300px;
+  height: 526px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Inicio.css';
+import Banner from './Banner/Banner';
 
 /* Translate */
 import { useTranslation } from 'react-i18next';
@@ -14,8 +15,8 @@ const Inicio = () => {
           {t('home.line1')} <br />
           {t('home.line2')} <span> {t('home.span')}</span>
         </h1>
-        <p></p>
       </div>
+      <Banner></Banner>
     </section>
   );
 };

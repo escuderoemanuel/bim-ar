@@ -11,6 +11,7 @@
   --background-dark: #00142a;
   --background-darked: #001731;
   --text: #303030;
+  --text-second: #0f243c;
   --text-primary: #0071c7;
   --text-secondary: #69c9ff;
   --text-light: #d7d7d7;
@@ -43,6 +44,5 @@ body {
 }
 
 button {
-  font-size: 23px;
-  font-weight: bold;
+  font-size: 24px;
 }

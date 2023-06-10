@@ -1,0 +1,23 @@
+.banner {
+  min-width: 100vw;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: -20%;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: rgba(215, 215, 215, 0.56);
+  padding: 0.5rem;
+  background-color: var(--background-darked);
+}
+
+.banner p {
+  margin-right: 8rem;
+  display: flex;
+}
+
+.banner span {
+  font-weight: 700;
+  color: var(--text-secondary);
+}
