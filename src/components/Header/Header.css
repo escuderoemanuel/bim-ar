@@ -4,6 +4,7 @@
   width: 100vw;
   z-index: 999;
   overflow: hidden;
+  height: 110px;
 }
 
 .header.scrolled {
@@ -20,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   position: relative;
 }
 

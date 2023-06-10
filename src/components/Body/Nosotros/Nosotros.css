@@ -3,6 +3,7 @@
   width: 100%;
   background-color: var(--background-light);
   color: var(--text);
+  padding-top: 110px;
 }
 
 .nosotrosContainer {

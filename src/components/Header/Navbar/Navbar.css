@@ -12,33 +12,28 @@
   height: auto;
 }
 
-.navbar a {
+.navbar-link {
   margin: 0 1.5rem;
   padding: 0;
   text-decoration: none;
   color: var(--text-light);
   font-size: 24px;
   position: relative;
+  transition: 0.3s;
 }
 
-.navbar a:hover {
+.navbar-link.active {
   font-weight: bold;
 }
 
-.navbar a.active::before {
+.navbar-link.active::before {
   content: '';
   position: absolute;
   bottom: 0;
-  left: -12.5%;
-  width: 125%;
+  left: -10%;
+  width: 120%;
   height: 3px;
   background-color: var(--text-secondary);
-  transform: scaleY(0);
-  transition: transform 0.5s ease-in-out;
-}
-
-.navbar a.active:hover::before {
-  transform: scaleY(1);
 }
 
 .toggle {
@@ -98,7 +93,7 @@
     overflow: hidden;
     position: absolute;
   }
-  .navbar a {
+  .navbar .navbar-link {
     text-decoration: none;
     font-size: 1.2em;
     color: var(--text-light);
@@ -121,7 +116,7 @@
     visibility: visible;
     transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
       width 0.5s ease-in-out;
-    background-color: var(--background-dark);
+    background-color: var(--background-darked);
     height: 200px;
     width: 200px;
   }

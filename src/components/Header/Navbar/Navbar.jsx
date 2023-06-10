@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
 import './Navbar.css';
+import React, { useState, useEffect } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { useTranslation } from 'react-i18next';
 import Language from '../Language/Language';
+import { use } from 'i18next';
 const Navbar = () => {
   /* i18next */
   const [t, i18n] = useTranslation('global');
@@ -30,6 +32,18 @@ const Navbar = () => {
     setIsActive(false);
   };
 
+  useEffect(() => {
+    const handleWindowsLoad = () => {
+      scroll.scrollToTop();
+      setActiveSection('home');
+    };
+
+    window.addEventListener('load', handleWindowsLoad);
+    return () => {
+      window.removeEventListener('load', handleWindowsLoad);
+    };
+  });
+
   return (
     <>
       <div
@@ -41,36 +55,44 @@ const Navbar = () => {
       </div>
 
       <nav className={navbarClass} id='navbar'>
-        <a
-          className={`navbar-link ${activeSection === 'home' ? 'active' : ''}`}
-          href='#home'
+        <Link
+          className={`navbar-link  ${activeSection === 'home' ? 'active' : ''}`}
+          to='home'
+          smooth={true}
+          duration={500}
           onClick={() => handleLinkClick('home')}>
           {t('header.navbar.link1')}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`navbar-link ${
             activeSection === 'aboutUs' ? 'active' : ''
           }`}
-          href='#aboutUs'
+          to='aboutUs'
+          smooth={true}
+          duration={500}
           onClick={() => handleLinkClick('aboutUs')}>
           {t('header.navbar.link2')}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`navbar-link ${
             activeSection === 'services' ? 'active' : ''
           }`}
-          href='#services'
+          to='services'
+          smooth={true}
+          duration={500}
           onClick={() => handleLinkClick('services')}>
           {t('header.navbar.link3')}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`navbar-link ${
             activeSection === 'contact' ? 'active' : ''
           }`}
-          href='#contact'
+          to='contact'
+          smooth={true}
+          duration={500}
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}
-        </a>
+        </Link>
       </nav>
     </>
   );
