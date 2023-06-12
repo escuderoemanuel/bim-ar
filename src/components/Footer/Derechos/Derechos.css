@@ -1,0 +1,13 @@
+.derechos {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  margin-top: 2rem;
+  padding: 1rem 0.5rem 0rem;
+  font-size: 12px;
+}
+
+.derechos a {
+  color: var(--background-hex);
+  text-decoration: none;
+}

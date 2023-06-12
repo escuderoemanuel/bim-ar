@@ -1,6 +1,7 @@
 import './Navbar.css';
 import React, { useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 
 import { useTranslation } from 'react-i18next';
 import Language from '../Language/Language';
@@ -68,6 +69,7 @@ const Navbar = () => {
             activeSection === 'aboutUs' ? 'active' : ''
           }`}
           to='aboutUs'
+          offset={-50}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('aboutUs')}>
@@ -78,6 +80,7 @@ const Navbar = () => {
             activeSection === 'services' ? 'active' : ''
           }`}
           to='services'
+          offset={-50}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('services')}>
@@ -89,6 +92,7 @@ const Navbar = () => {
           }`}
           to='contact'
           smooth={true}
+          offset={-50}
           duration={500}
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}

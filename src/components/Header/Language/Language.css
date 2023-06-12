@@ -9,12 +9,12 @@
   margin: 0 1.5rem;
 }
 
-i {
-  font-size: 0px;
+box-icon {
   filter: invert();
 }
 
-select {
+select,
+.custom-select-container {
   background-color: transparent;
   border: none;
   width: auto;
@@ -25,9 +25,13 @@ select {
   outline: none;
 }
 
-option {
+.option,
+.custom-select-option,
+.langSelected {
   background-color: var(--background-dark);
   text-align: center;
+  cursor: pointer;
+  color: var(--text-light);
 }
 
 @media screen and (max-width: 900px) {

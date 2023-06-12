@@ -87,3 +87,8 @@ form button {
 .contacto img {
   max-width: 443px;
 }
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+}

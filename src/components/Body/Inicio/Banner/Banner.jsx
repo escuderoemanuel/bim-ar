@@ -29,6 +29,13 @@ const Banner = () => {
         <span>&nbsp;+&nbsp;</span>
         {t('home.banner.word3')}
       </p>
+      <p>
+        {t('home.banner.word1')}
+        <span>&nbsp;+&nbsp;</span>
+        {t('home.banner.word2')}
+        <span>&nbsp;+&nbsp;</span>
+        {t('home.banner.word3')}
+      </p>
     </div>
   );
 };

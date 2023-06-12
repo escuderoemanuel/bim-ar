@@ -25,7 +25,7 @@ const Contacto = () => {
                 <input type='email' name='email' id='email' />
               </div>
             </div>
-            <div>
+            <div className='textArea'>
               <label htmlFor='messagge'>{t('contact.form.label3')}</label>
               <textarea
                 name='messagge'

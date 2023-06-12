@@ -9,11 +9,6 @@ const Header = () => {
     const header = document.getElementById('header');
     const scrolled = window.pageXOffset || document.documentElement.scrollTop;
 
-    /*  if (scrolled > 0) {
-        header.classList.add('scrolled');
-      } else {
-        header.classList.remove('scrolled');
-      } */
     scrolled > 0
       ? header.classList.add('scrolled')
       : header.classList.remove('scrolled');

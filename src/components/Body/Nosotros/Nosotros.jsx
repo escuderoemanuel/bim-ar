@@ -27,10 +27,12 @@ const Nosotros = () => {
           <p>{t('aboutUs.paragraph2')}</p>
           <button>
             <Link to='contact' smooth={true} duration={500}>
-              {t('aboutUs.textBtn')}
-              <i>
-                <box-icon name='right-arrow-alt'></box-icon>
-              </i>
+              <div className='divBtn'>
+                {t('aboutUs.textBtn')}
+                <i>
+                  <box-icon name='right-arrow-alt'></box-icon>
+                </i>
+              </div>
             </Link>
           </button>
         </div>

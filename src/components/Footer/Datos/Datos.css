@@ -1,0 +1,64 @@
+.datosContainer {
+  height: 244px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.columna1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.columna1 .social {
+  width: 118px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna1 .social img {
+  width: 30px;
+  filter: invert();
+}
+
+.columna2,
+.columna2 nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.columna2 .navbar-link {
+  cursor: pointer;
+}
+
+.columna3 {
+  display: flex;
+  align-items: end;
+}
+
+.arrowUp {
+  background-color: var(--text-primary);
+  border-radius: 5px;
+  border: none;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+box-icon {
+  filter: invert();
+  display: flex;
+}
+
+.columna2 nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}

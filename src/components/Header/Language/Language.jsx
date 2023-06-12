@@ -20,8 +20,12 @@ const Language = () => {
       <select
         className='langSelected'
         onChange={(e) => handleChangeLanguage(e.target.value)}>
-        <option value='es'>ES</option>
-        <option value='en'>EN</option>
+        <option className='option' value='es'>
+          ES
+        </option>
+        <option className='option' value='en'>
+          EN
+        </option>
       </select>
     </div>
   );
