@@ -1,10 +1,35 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Contacto.css';
 import imgContact from '../../../assets/img/img-contacto.png';
 import { useTranslation } from 'react-i18next';
 
 const Contacto = () => {
   const [t, i18n] = useTranslation('global');
+
+  useEffect(() => {
+    const form = document.querySelector('#form');
+    const buttonMailto = document.querySelector('#mailto');
+    form.addEventListener('submit', handleSubmit);
+
+    return () => {
+      form.removeEventListener('submit', handleSubmit);
+    };
+  }, []);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const formulario = new FormData(this);
+
+    const buttonMailto = document.querySelector('#mailto');
+
+    buttonMailto.setAttribute(
+      'href',
+      `mailto:escudero.mdz@gmail.com?subject=${formulario.get(
+        'name'
+      )}&body=${formulario.get('messagge')}`
+    );
+    buttonMailto.click();
+  }
 
   return (
     <section className='contacto' id='contact'>
@@ -14,7 +39,7 @@ const Contacto = () => {
             <h3>{t('contact.title')}</h3>
             <p>{t('contact.subtitle')}</p>
           </div>
-          <form action='submit'>
+          <form action='submit' id='form'>
             <div className='labelNameEmail'>
               <div className='name'>
                 <label htmlFor='name'>{t('contact.form.label1')}</label>
@@ -35,6 +60,7 @@ const Contacto = () => {
             </div>
             <button>{t('contact.form.textBtn')}</button>
           </form>
+          <a href='mailto:escudero.mdz@gmail.com' id='mailto'></a>
         </div>
         <img src={imgContact} alt='' />
       </div>
