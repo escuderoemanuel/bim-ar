@@ -1,12 +1,16 @@
 import React from 'react';
 import './Servicios.css';
 import { useTranslation } from 'react-i18next';
+import backgroundImage from '../../../assets/img/img-servicios.png';
 
 const Servicios = () => {
   const [t, i18n] = useTranslation('global');
 
   return (
-    <section className='servicios' id='services'>
+    <section
+      className='servicios'
+      id='services'
+      style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='serviciosContainer'>
         <div className='serviciosText'>
           <h2>{t('services.title1')}</h2>
