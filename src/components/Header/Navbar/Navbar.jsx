@@ -1,11 +1,11 @@
 import './Navbar.css';
 import React, { useState, useEffect } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import { useTranslation } from 'react-i18next';
 import Language from '../Language/Language';
 import { use } from 'i18next';
+
 const Navbar = () => {
   /* i18next */
   const [t, i18n] = useTranslation('global');
@@ -13,7 +13,7 @@ const Navbar = () => {
   /* Estado inicial de la visibilidad de la navbar */
   const [isNavVisible, setIsNavVisible] = useState(false);
   /* Estado inicial de la section activa*/
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState('');
   /* Estado inicial de toggle */
   const [isActive, setIsActive] = useState(false);
   /* Estado por defecto 'navbar' */
@@ -29,21 +29,23 @@ const Navbar = () => {
 
   const handleLinkClick = (section) => {
     setActiveSection(section);
+    /* Visibilidad del menú */
     setIsNavVisible(false);
+    /* Visibilidad del toggle */
     setIsActive(false);
   };
 
   useEffect(() => {
     const handleWindowsLoad = () => {
       scroll.scrollToTop();
-      setActiveSection('home');
     };
 
     window.addEventListener('load', handleWindowsLoad);
+
     return () => {
       window.removeEventListener('load', handleWindowsLoad);
     };
-  });
+  }, []);
 
   return (
     <>
@@ -59,6 +61,8 @@ const Navbar = () => {
         <Link
           className={`navbar-link  ${activeSection === 'home' ? 'active' : ''}`}
           to='home'
+          offset={-150}
+          spy={true}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('home')}>
@@ -69,9 +73,10 @@ const Navbar = () => {
             activeSection === 'aboutUs' ? 'active' : ''
           }`}
           to='aboutUs'
-          offset={-50}
+          spy={true}
+          offset={-100}
           smooth={true}
-          duration={500}
+          duration={300}
           onClick={() => handleLinkClick('aboutUs')}>
           {t('header.navbar.link2')}
         </Link>
@@ -80,9 +85,10 @@ const Navbar = () => {
             activeSection === 'services' ? 'active' : ''
           }`}
           to='services'
-          offset={-50}
+          spy={true}
+          offset={-100}
           smooth={true}
-          duration={500}
+          duration={300}
           onClick={() => handleLinkClick('services')}>
           {t('header.navbar.link3')}
         </Link>
@@ -91,9 +97,10 @@ const Navbar = () => {
             activeSection === 'contact' ? 'active' : ''
           }`}
           to='contact'
+          spy={true}
           smooth={true}
-          offset={-50}
-          duration={500}
+          offset={-100}
+          duration={300}
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}
         </Link>

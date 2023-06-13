@@ -1,6 +1,6 @@
 import './Datos.css';
 import React, { useState, useEffect } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import { useTranslation } from 'react-i18next';
 import Logo from '../../Header/Logo/Logo';
@@ -15,30 +15,21 @@ const Datos = () => {
   /* Estado inicial de la visibilidad de la navbar */
   const [isNavVisible, setIsNavVisible] = useState(false);
   /* Estado inicial de la section activa*/
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState('');
   /* Estado inicial de toggle */
   const [isActive, setIsActive] = useState(false);
-  /* Estado por defecto 'navbar' */
-  const navbarClass = `navbar ${isNavVisible ? 'visible' : 'hidden'}`;
-
-  /* Manejador de click */
-  const handleToggleClick = () => {
-    /* Visibilidad del menú */
-    setIsNavVisible(!isNavVisible);
-    /* Visibilidad del toggle */
-    setIsActive(!isActive);
-  };
 
   const handleLinkClick = (section) => {
     setActiveSection(section);
+    /* Visibilidad del menú */
     setIsNavVisible(false);
+    /* Visibilidad del toggle */
     setIsActive(false);
   };
 
   useEffect(() => {
     const handleWindowsLoad = () => {
       scroll.scrollToTop();
-      setActiveSection('home');
     };
 
     window.addEventListener('load', handleWindowsLoad);
@@ -75,6 +66,8 @@ const Datos = () => {
                 activeSection === 'home' ? 'active' : ''
               }`}
               to='home'
+              offset={-150}
+              spy={true}
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('home')}>
@@ -85,6 +78,8 @@ const Datos = () => {
                 activeSection === 'aboutUs' ? 'active' : ''
               }`}
               to='aboutUs'
+              offset={-100}
+              spy={true}
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('aboutUs')}>
@@ -95,6 +90,8 @@ const Datos = () => {
                 activeSection === 'services' ? 'active' : ''
               }`}
               to='services'
+              offset={-100}
+              spy={true}
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('services')}>
@@ -105,6 +102,8 @@ const Datos = () => {
                 activeSection === 'contact' ? 'active' : ''
               }`}
               to='contact'
+              offset={-100}
+              spy={true}
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('contact')}>
