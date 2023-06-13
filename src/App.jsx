@@ -13,7 +13,7 @@ function App() {
       <div className='generalContainer'>
         <Routes>
           <Route path='/' Component={MainContent}></Route>
-          <Route path='/tems' Component={Terms}></Route>
+          <Route path='/terms' Component={Terms}></Route>
         </Routes>
       </div>
     </Router>
