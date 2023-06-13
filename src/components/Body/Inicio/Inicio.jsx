@@ -1,6 +1,7 @@
 import React from 'react';
 import './Inicio.css';
 import Banner from './Banner/Banner';
+import backgroundImage from '../../../assets/img/img-home.png';
 
 /* Translate */
 import { useTranslation } from 'react-i18next';
@@ -9,7 +10,10 @@ const Inicio = () => {
   const [t, i18n] = useTranslation('global');
 
   return (
-    <section className='inicio' id='home'>
+    <section
+      className='inicio'
+      id='home'
+      style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='inicioContainer'>
         <h1>
           {t('home.line1')} <br />
