@@ -7,7 +7,7 @@
   font-size: 12px;
 }
 
-.derechos a {
+.derechos .link {
   color: var(--background-hex);
   text-decoration: none;
 }
