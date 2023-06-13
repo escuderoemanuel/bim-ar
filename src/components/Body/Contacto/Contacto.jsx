@@ -19,9 +19,9 @@ const Contacto = () => {
   function handleSubmit(e) {
     e.preventDefault();
     const formulario = new FormData(this);
+    console.log(formulario.get('name'));
 
     const buttonMailto = document.querySelector('#mailto');
-
     buttonMailto.setAttribute(
       'href',
       `mailto:escudero.mdz@gmail.com?subject=${formulario.get(
@@ -29,6 +29,11 @@ const Contacto = () => {
       )}&body=${formulario.get('messagge')}`
     );
     buttonMailto.click();
+
+    setTimeout(() => {
+      const form = document.querySelector('#form');
+      form.reset(); // Vaciar los campos del formulario
+    }, 5000); // Esperar 5 segundos (5000 milisegundos) antes de vaciar los campos
   }
 
   return (
