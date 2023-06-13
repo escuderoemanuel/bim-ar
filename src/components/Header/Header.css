@@ -15,7 +15,7 @@
 .headerContainer {
   /* General del headerContainer */
   max-width: 1366px;
-  margin: 0;
+  margin: auto;
 
   /* Para aplicar a los child del headerContainer */
   display: flex;

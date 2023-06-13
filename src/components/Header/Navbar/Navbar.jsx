@@ -1,6 +1,6 @@
 import './Navbar.css';
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { useTranslation } from 'react-i18next';
 import Language from '../Language/Language';
@@ -33,11 +33,26 @@ const Navbar = () => {
     setIsNavVisible(false);
     /* Visibilidad del toggle */
     setIsActive(false);
+    setIsScrolling(true);
   };
+
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolling(true);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     const handleWindowsLoad = () => {
-      scroll.scrollToTop();
+      scroll.scrollToTop({ duration: 500 });
     };
 
     window.addEventListener('load', handleWindowsLoad);
@@ -59,9 +74,11 @@ const Navbar = () => {
 
       <nav className={navbarClass} id='navbar'>
         <Link
-          className={`navbar-link  ${activeSection === 'home' ? 'active' : ''}`}
+          className={`navbar-link  ${
+            activeSection === 'home' && !isScrolling ? 'active' : ''
+          }`}
           to='home'
-          offset={-150}
+          offset={-100}
           spy={true}
           smooth={true}
           duration={500}
@@ -70,37 +87,37 @@ const Navbar = () => {
         </Link>
         <Link
           className={`navbar-link ${
-            activeSection === 'aboutUs' ? 'active' : ''
+            activeSection === 'aboutUs' && !isScrolling ? 'active' : ''
           }`}
           to='aboutUs'
           spy={true}
           offset={-100}
           smooth={true}
-          duration={300}
+          duration={500}
           onClick={() => handleLinkClick('aboutUs')}>
           {t('header.navbar.link2')}
         </Link>
         <Link
           className={`navbar-link ${
-            activeSection === 'services' ? 'active' : ''
+            activeSection === 'services' && !isScrolling ? 'active' : ''
           }`}
           to='services'
           spy={true}
           offset={-100}
           smooth={true}
-          duration={300}
+          duration={500}
           onClick={() => handleLinkClick('services')}>
           {t('header.navbar.link3')}
         </Link>
         <Link
           className={`navbar-link ${
-            activeSection === 'contact' ? 'active' : ''
+            activeSection === 'contact' && !isScrolling ? 'active' : ''
           }`}
           to='contact'
           spy={true}
           smooth={true}
           offset={-100}
-          duration={300}
+          duration={500}
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}
         </Link>

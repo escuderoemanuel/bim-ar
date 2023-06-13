@@ -8,7 +8,7 @@ const Derechos = () => {
   return (
     <div className='derechos'>
       <p>{t('footer.rights.text1')}</p>
-      <a href='#'>
+      <a href='terminos' target='_blank'>
         <p>{t('footer.rights.text2')}</p>
       </a>
     </div>

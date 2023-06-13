@@ -27,17 +27,6 @@ const Datos = () => {
     setIsActive(false);
   };
 
-  useEffect(() => {
-    const handleWindowsLoad = () => {
-      scroll.scrollToTop();
-    };
-
-    window.addEventListener('load', handleWindowsLoad);
-    return () => {
-      window.removeEventListener('load', handleWindowsLoad);
-    };
-  });
-
   return (
     <div className='datos'>
       <div className='datosContainer'>
