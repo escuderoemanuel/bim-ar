@@ -7,8 +7,6 @@ import TermsEn from './components/Footer/Derechos/Terms/Terms-En';
 import TermsEs from './components/Footer/Derechos/Terms/Terms-Es';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Router>
       <div className='generalContainer'>
