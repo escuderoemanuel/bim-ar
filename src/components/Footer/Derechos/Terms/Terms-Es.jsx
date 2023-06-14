@@ -14,7 +14,11 @@ const TermsEs = () => {
         </div>
         <div className='bodyTerms'>
           <h3 className='title'>{termsEs.title}</h3>
-          <p className='text'>{termsEs.text}</p>
+          {Object.values(termsEs.text).map((text, id) => (
+            <p className='text' key={id}>
+              {text}
+            </p>
+          ))}
         </div>
       </div>
     </div>

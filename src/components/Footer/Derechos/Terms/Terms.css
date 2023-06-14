@@ -1,7 +1,7 @@
 .terms {
   background-color: var(--background-dark);
   color: var(--text-light);
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -25,4 +25,5 @@
 
 .bodyTerms p {
   font-size: 16px;
+  margin-bottom: 1rem;
 }
