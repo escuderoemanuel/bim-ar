@@ -24,7 +24,7 @@ const Contacto = () => {
     const buttonMailto = document.querySelector('#mailto');
     buttonMailto.setAttribute(
       'href',
-      `mailto:escudero.mdz@gmail.com?subject=${formulario.get(
+      `mailto:emanuelescudero.dev@gmail.com?subject=${formulario.get(
         'name'
       )}&body=${formulario.get('messagge')}`
     );
