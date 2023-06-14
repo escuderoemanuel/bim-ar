@@ -119,11 +119,7 @@
     },
     "rights": {
       "text1": "Copyright © 2023. Todos los Derechos Reservados",
-      "text2": "Terminos y condiciones | Politicas de privacidad",
-      "terms": {
-        "title": "Términos y Condiciones",
-        "text": "Texto de Condiciones"
-      }
+      "text2": "Terminos y condiciones | Politicas de privacidad"
     }
   }
 }
