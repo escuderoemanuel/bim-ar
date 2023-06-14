@@ -12,8 +12,8 @@ function App() {
     <Router>
       <div className='generalContainer'>
         <Routes>
-          <Route path='/' Component={MainContent}></Route>
-          <Route path='/terms' Component={Terms}></Route>
+          <Route path='/' element={<MainContent />} />
+          <Route path='/terms' element={<Terms />} />
         </Routes>
       </div>
     </Router>
