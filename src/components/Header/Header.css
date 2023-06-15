@@ -9,7 +9,7 @@
 
 .header.scrolled {
   z-index: 999;
-  background-color: var(--background-dark);
+  background-color: var(--fondo-);
 }
 
 .headerContainer {

@@ -9,17 +9,12 @@
   margin: 0 1.5rem;
 }
 
-box-icon {
-  filter: invert();
-}
-
 select,
 .custom-select-container {
   background-color: transparent;
   border: none;
   width: auto;
   padding: 0;
-  color: var(--text-light);
   font-size: 1em;
   border: none;
   outline: none;
@@ -28,16 +23,16 @@ select,
 .option,
 .custom-select-option,
 .langSelected {
-  background-color: var(--background-dark);
+  background-color: var(--fondo-);
   text-align: center;
   cursor: pointer;
-  color: var(--text-light);
+  color: var(--hex-);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
   .languages {
     position: absolute;
-    right: 90px;
+    right: 70px;
     top: auto;
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './Inicio.css';
 import Banner from './Banner/Banner';
 import backgroundImage from '../../../assets/img/img-home.png';
+import backgroundImageInicio from '../../../assets/img/img-inicio.png';
 
 /* Translate */
 import { useTranslation } from 'react-i18next';
@@ -13,7 +14,7 @@ const Inicio = () => {
     <section
       className='inicio'
       id='home'
-      style={{ backgroundImage: `url(${backgroundImage})` }}>
+      style={{ backgroundImage: `url(${backgroundImageInicio})` }}>
       <div className='inicioContainer'>
         <h1>
           {t('home.line1')} <br />

@@ -1,13 +1,11 @@
 .footer {
   width: 100%;
-  /* background-image: url('src/assets/img/img-footer.png'); */
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
 .footerContainer {
-  max-width: 1366px;
+  max-width: 1280px;
   margin: auto;
   padding: 2rem 2rem 1.2rem;
   font-size: 1.2em;

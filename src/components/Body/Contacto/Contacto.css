@@ -1,7 +1,7 @@
 .contacto {
   width: 100%;
-  background-color: lightgray;
-  color: #1e1e1e;
+  background-color: var(--fondo);
+  color: var(--texto-contacto);
   padding: 140px 54px;
 }
 
@@ -64,7 +64,7 @@ form input {
 form input,
 textarea {
   border-radius: 15px;
-  border: 1px solid #1e1e1e;
+  border: 1px solid var(--texto-contacto);
   font-family: 'Mulish', sans-serif;
 }
 
@@ -78,9 +78,9 @@ form button {
   width: 616px;
   height: 55px;
   border-radius: 15px;
-  background-color: var(--text-primary);
+  background-color: var(--primary);
   border: none;
-  color: var(--text-light);
+  color: var(--hex-);
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;

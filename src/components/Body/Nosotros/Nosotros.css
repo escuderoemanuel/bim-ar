@@ -1,7 +1,7 @@
 .nosotros {
   width: 100%;
-  background-color: var(--background-light);
-  color: var(--text);
+  background-color: var(--fondo);
+  color: var(--texto);
   padding: 140px 54px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .nosotros h3 {
-  color: var(--text-gray);
+  color: var(--subtitulo);
 }
 
 .nosotros h2 {
@@ -25,7 +25,7 @@
 }
 
 .nosotros h2 span {
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 .nosotros p {
@@ -42,13 +42,13 @@
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
-  background-color: var(--text-primary);
+  background-color: var(--primary);
   width: 240px;
   height: 60px;
   border-radius: 14px;
   font-weight: bold;
   cursor: pointer;
-  color: var(--text-light);
+  color: var(--hex);
   border: none;
 }
 .divBtn {

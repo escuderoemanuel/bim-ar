@@ -1,21 +1,27 @@
 :root {
-  color: var(--text-light);
-
+  color: #ffffff;
   font-family: 'Mulish', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   /* Paleta de Colores */
-  --background-light: #f4f4f4;
-  --background-hex: #ffffff;
-  --background-dark: #00142a;
-  --background-darked: #001731;
-  --text: #303030;
-  --text-second: #0f243c;
-  --text-primary: #0071c7;
-  --text-secondary: #69c9ff;
-  --text-light: #d7d7d7;
-  --text-gray: #6c6c6c;
+  --texto: #303030;
+  --subtitulo: #6c6c6c;
+  --hex: #d7d7d7;
+  --fondo: #f4f4f4;
+  --hex-: #ffffff;
+  --fondo-: #001731;
+  --primary: #0071c7;
+  --texto-: #69c9ff;
+
+  --texto-servicios: #0f243c;
+  --servicio-1: #ffffff;
+  --servicio-2: #d0eeff;
+  --servicio-3: #95daff;
+  --servicio-4: #52c2ff;
+  --servicio-5: #1cacfc;
+
+  --texto-contacto: #1e1e1e;
 }
 
 * {

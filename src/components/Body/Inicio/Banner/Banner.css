@@ -1,15 +1,18 @@
 .banner {
   min-width: 100vw;
+  height: 61px;
   display: flex;
+  align-items: center;
   overflow: hidden;
   position: absolute;
   bottom: 0;
   left: -20%;
   letter-spacing: 1.5px;
   font-weight: bold;
+  font-size: 21px;
   color: rgba(215, 215, 215, 0.56);
   padding: 0.5rem;
-  background-color: var(--background-darked);
+  background-color: var(--fondo-);
 }
 
 .banner p {
@@ -19,5 +22,5 @@
 
 .banner span {
   font-weight: 700;
-  color: var(--text-secondary);
+  color: var(--texto-);
 }

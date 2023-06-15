@@ -1,10 +1,6 @@
 .servicios {
   width: 100%;
-  color: lightgray;
-  background-color: rgb(6, 52, 100);
-  /* background-image: url('src/assets/img/img-servicios.png'); */
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   padding: 140px 54px;
 }
@@ -43,7 +39,7 @@
 }
 
 .serv {
-  color: var(--text-second);
+  color: var(--texto-servicios);
   border-radius: 15px;
   padding: 1.5rem 1rem;
   width: 210px;
@@ -68,26 +64,26 @@
 }
 
 .serv:nth-child(1) {
-  background-color: #ffffff;
+  background-color: var(--servicio-1);
   height: 305px;
 }
 
 .serv:nth-child(2) {
-  background-color: #d0eeff;
+  background-color: var(--servicio-2);
   height: 333px;
 }
 
 .serv:nth-child(3) {
-  background-color: #95daff;
+  background-color: var(--servicio-3);
   height: 360px;
 }
 
 .serv:nth-child(4) {
-  background-color: #52c2ff;
+  background-color: var(--servicio-4);
   height: 387px;
 }
 
 .serv:nth-child(5) {
-  background-color: #1cacfc;
+  background-color: var(--servicio-5);
   height: 414px;
 }

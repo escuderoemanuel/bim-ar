@@ -8,6 +8,6 @@
 }
 
 .derechos .link {
-  color: var(--background-hex);
+  color: var(--hex-);
   text-decoration: none;
 }

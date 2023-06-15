@@ -40,7 +40,7 @@
 }
 
 .arrowUp {
-  background-color: var(--text-primary);
+  background-color: var(--primary);
   border-radius: 5px;
   border: none;
   width: 20px;
