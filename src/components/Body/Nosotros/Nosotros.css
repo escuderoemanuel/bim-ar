@@ -6,22 +6,31 @@
 }
 
 .nosotrosContainer {
-  max-width: 1366px;
+  max-width: 1280px;
+  height: 526px;
   margin: auto;
-  font-size: 1.2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+}
+
+.nosotrosText {
+  height: 505px;
+  max-width: 560px;
 }
 
 .nosotros h3 {
   color: var(--subtitulo);
+  margin-bottom: 18px;
+  padding: 0;
 }
 
 .nosotros h2 {
   font-weight: 800;
-  margin: 0 0.5rem 1rem 0;
+  letter-spacing: -0.1px;
+  font-size: 39px;
+  margin-bottom: 18px;
+  line-height: 1.3;
 }
 
 .nosotros h2 span {
@@ -29,7 +38,7 @@
 }
 
 .nosotros p {
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .nosotros p span {
@@ -37,7 +46,7 @@
 }
 
 .nosotrosContainer button {
-  margin-top: 3rem;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--hex-);
 }
 
 i {

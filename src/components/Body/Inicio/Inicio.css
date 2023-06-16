@@ -1,9 +1,7 @@
 .inicio {
-  min-height: 800px;
   width: 100%;
   height: 865px;
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
   display: flex;
   padding-top: 110px;
@@ -13,8 +11,6 @@
 .inicioContainer {
   max-width: 1280px;
   margin: auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .inicioContainer span {
@@ -22,5 +18,8 @@
 }
 
 .inicioContainer h1 {
+  padding-bottom: 110px;
+  font-size: 70px;
   font-weight: 900;
+  text-align: center;
 }

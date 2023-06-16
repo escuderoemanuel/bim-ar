@@ -22,6 +22,10 @@
   --servicio-5: #1cacfc;
 
   --texto-contacto: #1e1e1e;
+
+  .wrap {
+    white-space: pre-wrap;
+  }
 }
 
 * {
@@ -31,7 +35,6 @@
 }
 
 h1 {
-  font-size: 70px;
   font-weight: bolder;
 }
 
@@ -51,4 +54,8 @@ body {
 
 button {
   font-size: 24px;
+}
+
+.wrap {
+  white-space: pre-wrap;
 }

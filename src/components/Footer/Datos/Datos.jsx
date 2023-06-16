@@ -33,18 +33,9 @@ const Datos = () => {
         <div className='columna1'>
           <Logo></Logo>
           <div className='social'>
-            <a href='#'>
-              <img
-                src={linkedIcon}
-                alt={t('footer.data.social.social1.name')}
-              />
-            </a>
-            <a href='#'>
-              <img src={instaIcon} alt={t('footer.data.social.social2.name')} />
-            </a>
-            <a href='#'>
-              <img src={faceIcon} alt={t('footer.data.social.social3.name')} />
-            </a>
+            <img src={linkedIcon} alt={t('footer.data.social.social1.name')} />
+            <img src={instaIcon} alt={t('footer.data.social.social2.name')} />
+            <img src={faceIcon} alt={t('footer.data.social.social3.name')} />
           </div>
         </div>
         <div className='columna2'>
@@ -111,7 +102,7 @@ const Datos = () => {
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('home')}>
-              <box-icon name='chevron-up'></box-icon>
+              <box-icon name='chevron-up' type='solid'></box-icon>
             </Link>
           </button>
         </div>

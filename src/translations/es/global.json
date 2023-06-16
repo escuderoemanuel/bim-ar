@@ -29,9 +29,9 @@
       "line2": "y la",
       "span2": "productividad"
     },
-    "paragraph1": "“BiMar” nace en 2019, con el objetivo de cubrir las necesidades de digitalización y gestión de la información del sector AECO, incorporando metodologías colaborativas a partir del modelado paramétrico conocido como",
+    "paragraph1": "“BiMar” nace en 2019, con el objetivo de cubrir \nlas necesidades de digitalización y gestión de la información \ndel sector AECO, incorporando metodologías colaborativas \na partir del modelado paramétrico conocido \ncomo",
     "span": "Building Information Modeling (BIM).",
-    "paragraph2": "Somos un equipo de profesionales abocados a acompañar los procesos de transformación digital de las empresas, maximizando los recursos y creando valor.",
+    "paragraph2": "Somos un equipo de profesionales abocados a acompañar \nlos procesos de transformación digital de las empresas, \nmaximizando los recursos y creando valor.",
     "textBtn": "Contáctanos",
     "img": {
       "url": "./assets/img/img-inicio.png",
@@ -40,32 +40,32 @@
   },
   "services": {
     "title1": "Nuestros Servicios",
-    "paragraph1": "Brindamos servicios de Modelado y de Gestión de la Información bajo estándares de Calidad ISO, permitiendo el intercambio de información de manera ágil, completa y consistente, desde el inicio y durante todo el ciclo de vida de cada proyecto.",
+    "paragraph1": "Brindamos servicios de Modelado y de Gestión de la Información bajo estándares \nde Calidad ISO, permitiendo el intercambio de información de manera ágil, completa \ny consistente, desde el inicio y durante todo el ciclo de vida de cada proyecto.",
     "servicesList": {
       "3d": {
         "title": "3D",
         "subtitle": "Análisis",
-        "text": "Permite encontrar soluciones en el proceso de modelización geométrica. En esta fase se analiza la viabilidad de la construcción."
+        "text": "Permite encontrar \nsoluciones en el proceso \nde modelización geométrica. \nEn esta fase se analiza la \nviabilidad de la \nconstrucción."
       },
       "4d": {
         "title": "4D",
         "subtitle": "Planificación",
-        "text": "Permite detectar tempranamente posibles problemas en el diseño, como así también programar los avances a partir de los periodos de trabajo y establecer metas temporales."
+        "text": "Permite detectar \ntempranamente posibles \nproblemas en el diseño, \ncomo así también \nprogramar los avances \na partir de los periodos \nde trabajo y establecer \nmetas temporales."
       },
       "5d": {
         "title": "5D",
-        "subtitle": "Estimación de presupuesto",
-        "text": "Se incorporala información de costos al modelo, lo que permite prever un presupuesto, en base a toda la información recopilada."
+        "subtitle": "Estimación \nde presupuesto",
+        "text": "Se incorpora \nla información de costos \nal modelo, lo que permite \nprever un presupuesto, \nen base a toda la \ninformación recopilada."
       },
       "6d": {
         "title": "6D",
         "subtitle": "Sostenibilidad",
-        "text": "Permite evaluarel impacto social, económico y ambiental. Así como los estudios de eficiencia energética que parten del modelo como eléctrica, hidrosanitaria y HVAC."
+        "text": "Permite evaluar \nel impacto social, \neconómico y ambiental. \nAsí como los estudios \nde eficiencia energética \nque parten del modelo \ncomo eléctrica, \nhidrosanitaria y HVAC."
       },
       "7d": {
         "title": "7D",
         "subtitle": "Gestión",
-        "text": "Permite realizar la gestión operativa a lo largo de la vida útil del edificio o activo, también llamada Facility Management."
+        "text": "Permite realizar la gestión \noperativa a lo largo \nde la vida útil del edificio \no activo, también llamada \nFacility Management."
       }
     }
   },
@@ -119,7 +119,7 @@
     },
     "rights": {
       "text1": "Copyright © 2023. Todos los Derechos Reservados",
-      "text2": "Terminos y condiciones | Politicas de privacidad"
+      "text2": "Términos y condiciones | Políticas de privacidad"
     }
   }
 }
