@@ -29,9 +29,9 @@
       "line2": "and",
       "span2": " productivity"
     },
-    "paragraph1": "“BiMar” was born in 2019, with the aim of meeting the digitization and information management needs of the AECO sector, incorporating collaborative methodologies based on parametric modeling known as ",
+    "paragraph1": "“BiMar” was born in 2019, with the aim of meeting \nthe digitization and information management needs of \nthe AECO sector, incorporating collaborative methodologies \nbased on parametric modeling known \nas",
     "span": "Building Information Modeling (BIM).",
-    "paragraph2": "We are a team of professionals dedicated to accompanying companies' digital transformation processes, maximizing resources and value creation.",
+    "paragraph2": "We are a team of professionals dedicated to accompanying \ncompanies digital transformation processes, \nmaximizing resources and value creation.",
     "textBtn": "Contact Us",
     "img": {
       "url": "./assets/img/img-inicio.png",
@@ -40,32 +40,32 @@
   },
   "services": {
     "title1": "Our Services",
-    "paragraph1": "We provide Modeling and Information Management services under ISO Quality standards, allowing the exchange of information in an agile, complete, and consistent manner, from the beginning and throughout the life cycle of each project.",
+    "paragraph1": "We provide Modeling and Information Management services under \nISO Quality standards, allowing the exchange of information in an agile, complete, \nand consistent manner, from the beginning and throughout the life cycle of each project.",
     "servicesList": {
       "3d": {
         "title": "3D",
         "subtitle": "Analysis",
-        "text": "It allows finding solutions in the geometric modeling process. In this phase the viability of the construction is analyzed."
+        "text": "It allows finding \nsolutions in the geometric \nmodeling process. \nIn this phase the viability \nof the construction \nis analyzed."
       },
       "4d": {
         "title": "4D",
         "subtitle": "Planning",
-        "text": "It allows early detection of possible problems in the design, as well as scheduling progress based on work periods and setting time goals."
+        "text": "It allows early \ndetection of possible \nproblems in the design, \nas well as \nscheduling progress based \non work periods \nand setting time goals."
       },
       "5d": {
         "title": "5D",
         "subtitle": "Budget estimate",
-        "text": "Cost information is incorporated into the model, which allows forecasting a budget based on all the information collected."
+        "text": "Cost information \nis incorporated into \nthe model, \nwhich allows forecasting \na budget based \non all the \ninformation collected."
       },
       "6d": {
         "title": "6D",
         "subtitle": "Sustainability",
-        "text": "It allows the evaluation of the social, economic and environmental impact, as well as the energy efficiency studies that start from the model such as electrical, hydrosanitary, and HVAC."
+        "text": "It allows the evaluation \nof the social, \neconomic and environmental impact, \nas well as the energy \nefficiency studies \nthat start from the model \nsuch as electrical, \nhydrosanitary, and HVAC."
       },
       "7d": {
         "title": "7D",
         "subtitle": "Management",
-        "text": "It allows operational management to be carried out throughout the useful life of the building or asset, also called Facility Management."
+        "text": "It allows \noperational management \nto be carried out throughout \nthe useful life \nof the building or asset, \nalso called \nFacility Management."
       }
     }
   },
