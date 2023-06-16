@@ -75,6 +75,7 @@
   display: flex;
   font-size: 14px;
   line-height: 1.3;
+  justify-content: center;
 }
 
 .serv:not(:last-child) {
