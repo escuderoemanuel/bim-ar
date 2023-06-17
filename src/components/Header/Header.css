@@ -34,6 +34,10 @@
 
 @media screen and (max-width: 768) {
   .header {
-    color: red;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+    height: 110px;
   }
 }

@@ -42,7 +42,7 @@ select,
     position: relative;
     right: 0;
     top: 0;
-    margin: 0 1.5rem;
+    margin: 1rem 0;
   }
 
   select,
@@ -54,19 +54,18 @@ select,
     font-size: 1em;
     border: none;
     outline: none;
-    color: red;
   }
 
   .option,
   .custom-select-option,
   .langSelected {
-    background-color: var(--fondo);
+    background-color: var(--fondo-);
     text-align: center;
     cursor: pointer;
-    color: red;
+    color: var(--hex-);
   }
 
-  .languages i {
-    display: none;
+  .option {
+    font-size: 0.75em;
   }
 }
