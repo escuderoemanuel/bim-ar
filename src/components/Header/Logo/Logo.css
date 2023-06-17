@@ -1,18 +1,15 @@
 .imgLogo {
-  height: 70px;
+  height: 65px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 920px) {
-  .imgLogo {
-    height: 60px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .imgLogo {
-    height: 50px;
+    height: 45px;
   }
 }

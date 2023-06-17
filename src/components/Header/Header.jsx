@@ -1,5 +1,5 @@
 import './Header.css';
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Logo from './Logo/Logo';
 import Navbar from './Navbar/Navbar';
 import Language from './Language/Language';
@@ -20,7 +20,6 @@ const Header = () => {
         <Logo></Logo>
         <div className='headerContainerRight'>
           <Navbar></Navbar>
-          <Language></Language>
         </div>
       </div>
     </section>

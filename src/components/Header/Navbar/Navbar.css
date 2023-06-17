@@ -59,113 +59,116 @@
   transition: transform 0.5s;
 }
 
-.toggle:hover .line:nth-child(1) {
-  transform: scaleX(0.8);
-}
-.toggle:hover .line:nth-child(2) {
-  transform: scaleX(0.5);
-}
-.toggle:hover .line:nth-child(3) {
-  transform: scaleX(0.8);
-}
-
 .toggle.active .line:nth-child(1) {
-  transform: translateY(7.5px) scaleX(0.9) scaleY(1.1) rotate(150deg);
+  transform: translateY(7.5px) scaleX(0.9) scaleY(1.5) rotate(150deg);
 }
 
 .toggle.active .line:nth-child(3) {
-  transform: translateY(-7.5px) scaleX(0.9) scaleY(1.1) rotate(30deg);
+  transform: translateY(-7.5px) scaleX(0.9) scaleY(1.5) rotate(30deg);
 }
 
 .toggle.active .line:nth-child(2) {
   display: none;
 }
 
-@media screen and (max-width: 920px) {
-  .navbar {
-    z-index: 1;
-    top: 40px;
-    opacity: 0;
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
-      width 0.5s ease-in-out;
-    margin: 0;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    position: absolute;
-  }
-  .navbar .navbar-link {
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: 500;
-    margin: 0 2rem;
-    transition: 0.3s;
-  }
-
-  .toggle {
-    display: flex;
-  }
-  .visible {
-    display: flex;
-    flex-direction: column;
-    border-radius: 0 0 5px 5px;
-    position: absolute;
-    right: 0;
-    top: 80px;
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
-      width 0.5s ease-in-out;
-    background-color: var(--fondo-);
-    height: 200px;
-    width: 200px;
-  }
+/* MEDIA QUERY 1024PX */
+@media screen and (max-width: 1024px) {
 }
 
+/* MEDIA QUERY 920PX */
 /* @media screen and (max-width: 920px) {
   .navbar {
-    z-index: 1;
-    top: 40px;
+    display: block;
     opacity: 0;
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
-      width 0.5s ease-in-out;
-    margin: 0;
-    width: 0;
-    height: 0;
-    overflow: hidden;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    padding: 10rem auto;
     position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: var(--fondo-);
+    transition: none;
+    width: 250px;
+    height: 0vh;
   }
+
   .navbar .navbar-link {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: var(--text-light);
-    font-weight: 500;
-    margin: 0 2rem;
-    transition: 0.3s;
+    margin: 0.5rem;
   }
 
   .toggle {
     display: flex;
+    z-index: 999;
   }
+
   .visible {
     display: flex;
+    padding: 10rem auto;
+    justify-content: stretch;
+    align-items: center;
     flex-direction: column;
-    border-radius: 0 0 5px 5px;
     position: absolute;
     right: 0;
-    top: 80px;
+    top: 0px;
     opacity: 1;
+    border-radius: 0 0 0 15px;
     visibility: visible;
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
-      width 0.5s ease-in-out;
-    background-color: var(--background-darked);
-    height: 200px;
-    width: 200px;
+    background-color: var(--fondo-);
+    transition: all 0.5s ease-in-out;
+    width: 250px;
+    height: 60vh;
   }
 } */
-/*   .navbar .navbar-link {
-    margin: 0 1rem;
-  } */
 
+/* MEDIA QUERY 768PX */
 @media screen and (max-width: 768px) {
+  .navbar {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: var(--fondo-);
+    transition: none;
+    width: 266px;
+    height: 389px;
+  }
+
+  .navbar .navbar-link {
+    margin: 0.5rem;
+    color: red;
+  }
+
+  .toggle {
+    display: flex;
+    z-index: 999;
+  }
+
+  .line::after {
+    background-color: red;
+  }
+
+  .visible {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    opacity: 1;
+    border-radius: 0 0 0 15px;
+    visibility: visible;
+    background-color: var(--fondo);
+    transition: all 0.5s ease-in-out;
+    width: 266px;
+    height: 389px;
+  }
 }

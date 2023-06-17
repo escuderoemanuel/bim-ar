@@ -121,6 +121,7 @@ const Navbar = () => {
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}
         </Link>
+        <Language />
       </nav>
     </>
   );
