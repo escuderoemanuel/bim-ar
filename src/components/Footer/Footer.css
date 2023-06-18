@@ -13,3 +13,24 @@
   font-size: 1.2em;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 1.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
+  }
+
+  .footerContainer {
+    max-width: 330px;
+    margin: 0;
+    padding: 0rem;
+    font-size: 1.2em;
+    text-align: center;
+  }
+}
