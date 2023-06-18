@@ -12,11 +12,8 @@
 }
 
 .headerContainer {
-  /* General del headerContainer */
   max-width: 1280px;
   margin: auto;
-
-  /* Para aplicar a los child del headerContainer */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,20 +21,14 @@
   position: relative;
 }
 
-.headerContainerRight {
-  display: flex;
+@media screen and (max-width: 1024px) {
+  .headerContainer {
+    padding: 1.5rem 2rem;
+  }
 }
 
-.header.active {
-  background-color: var(--fondo-);
-}
-
-@media screen and (max-width: 768) {
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 999;
-    height: 110px;
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    padding: 1rem;
   }
 }
