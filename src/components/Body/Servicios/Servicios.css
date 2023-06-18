@@ -151,6 +151,7 @@
     justify-content: start;
     overflow-x: auto;
     scroll-behavior: smooth;
+    scrollbar-color: transparent;
     padding: 2rem;
   }
 
@@ -197,6 +198,7 @@
   }
 
   .arrowsSlide {
+    margin-top: 0.5rem;
     width: 120px;
     height: 40px;
     display: flex;
