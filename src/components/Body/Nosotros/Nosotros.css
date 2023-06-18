@@ -81,7 +81,7 @@ i {
 
 @media screen and (max-width: 600px) {
   .nosotros {
-    padding: 56px 34px;
+    padding: 56px 28px;
   }
 
   .nosotrosContainer {
@@ -123,10 +123,6 @@ i {
     text-align: left;
   }
 
-  /*   .wrap p {
-    white-space: normal;
-  }
- */
   .nosotros p span {
     font-weight: bold;
   }

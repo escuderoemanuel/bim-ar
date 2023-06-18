@@ -2,6 +2,8 @@ import React from 'react';
 import './Servicios.css';
 import { useTranslation } from 'react-i18next';
 import backgroundImage from '../../../assets/img/img-servicios.png';
+import arrowLeft from '../../../assets/others/arrowLeft.png';
+import arrowRight from '../../../assets/others/arrowRight.png';
 
 const ServicioItem = ({ titleKey, subtitleKey, textKey }) => {
   const [t] = useTranslation('global');
@@ -142,6 +144,14 @@ const Servicios = () => {
               {t('services.servicesList.7d.text.line7')}
             </p>
           </div>
+        </div>
+        <div className='arrowsSlide'>
+          <img className='arrow arrowLeft' src={arrowLeft} alt='Arrow Left' />
+          <img
+            className='arrow arrowRight'
+            src={arrowRight}
+            alt='Arrow Right'
+          />
         </div>
       </div>
     </section>

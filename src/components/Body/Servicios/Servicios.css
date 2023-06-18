@@ -107,6 +107,10 @@
   height: 399px;
 }
 
+.arrowsSlide {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .servicios {
     width: 100%;
@@ -196,5 +200,18 @@
 
   br {
     display: none;
+  }
+
+  .arrowsSlide {
+    /* margin-top: 1rem; */
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .arrowsSlide .arrow {
+    width: 40px;
+    height: auto;
+    margin-top: 2rem;
   }
 }
