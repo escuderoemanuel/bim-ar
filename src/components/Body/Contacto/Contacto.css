@@ -216,4 +216,12 @@ form button {
     flex-direction: column;
     margin-top: 1.5rem;
   }
+
+  .wrap {
+    white-space: pre-wrap;
+  }
+
+  br {
+    display: none;
+  }
 }

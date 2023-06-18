@@ -59,6 +59,7 @@
   color: var(--hex);
   border: none;
 }
+
 .divBtn {
   display: flex;
   justify-content: center;
@@ -73,6 +74,9 @@ i {
 .nosotrosContainer img {
   border-radius: 20px;
   height: 526px;
+}
+.wrap {
+  white-space: normal;
 }
 
 @media screen and (max-width: 600px) {
@@ -119,10 +123,10 @@ i {
     text-align: left;
   }
 
-  .wrap p {
+  /*   .wrap p {
     white-space: normal;
   }
-
+ */
   .nosotros p span {
     font-weight: bold;
   }
@@ -158,5 +162,13 @@ i {
     border-radius: 20px;
     height: 317px;
     margin-bottom: 1rem;
+  }
+
+  .wrap {
+    white-space: pre-wrap;
+  }
+
+  br {
+    display: none;
   }
 }

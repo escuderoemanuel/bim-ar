@@ -24,14 +24,30 @@
   "aboutUs": {
     "title1": "Sobre Nosotros",
     "title2": {
-      "line1": "Maximizamos la",
-      "span1": " eficiencia",
-      "line2": "y la",
-      "span2": "productividad"
+      "line1": {
+        "line": "Maximizamos la",
+        "span": " eficiencia"
+      },
+      "line2": {
+        "line": "\n y la",
+        "span": "productividad"
+      }
     },
-    "paragraph1": "“BiMar” nace en 2019, con el objetivo \tde cubrir \nlas necesidades de digitalización y gestión de la información \ndel sector AECO, incorporando metodologías colaborativas \na partir del modelado paramétrico conocido \ncomo",
-    "span": "Building Information Modeling (BIM).",
-    "paragraph2": "Somos un equipo de profesionales abocados a acompañar \nlos procesos de transformación digital de las empresas, \nmaximizando los recursos y creando valor.",
+    "paragraph1": {
+      "line1": "“BiMar” nace en 2019, con el objetivo \nde cubrir ",
+      "line2": "las necesidades \nde digitalización y gestión \nde la información ",
+      "line3": "del sector AECO, \nincorporando metodologías \ncolaborativas ",
+      "line4": "a partir del modelado \nparamétrico conocido ",
+      "line5": {
+        "line": "\ncomo",
+        "span": "Building Information Modeling \n(BIM)."
+      }
+    },
+    "paragraph2": {
+      "line1": "\n \nSomos un equipo de profesionales \nabocados a acompañar ",
+      "line2": "los procesos \nde transformación digital \nde las empresas, ",
+      "line3": "maximizando \nlos recursos y creando valor."
+    },
     "textBtn": "Contáctanos",
     "img": {
       "url": "./assets/img/img-inicio.png",
@@ -40,42 +56,88 @@
   },
   "services": {
     "title1": "Nuestros Servicios",
-    "paragraph1": "Brindamos servicios de Modelado y de Gestión de la Información bajo estándares \nde Calidad ISO, permitiendo el intercambio de información de manera ágil, completa \ny consistente, desde el inicio y durante todo el ciclo de vida de cada proyecto.",
+    "paragraph1": {
+      "line1": "Brindamos servicios de Modelado \ny de Gestión de la Información \nbajo estándares ",
+      "line2": "\nde Calidad ISO, permitiendo \nel intercambio de información \nde manera ágil, completa ",
+      "line3": "\ny consistente, desde el inicio \ny durante todo el ciclo de vida \nde cada proyecto."
+    },
     "servicesList": {
       "3d": {
         "title": "3D",
         "subtitle": "Análisis",
-        "text": "Permite encontrar \nsoluciones en el proceso \nde modelización geométrica. \nEn esta fase se analiza la \nviabilidad de la \nconstrucción."
+        "text": {
+          "line1": "Permite encontrar ",
+          "line2": "\nsoluciones en el proceso ",
+          "line3": "\nde modelización ",
+          "line4": "\ngeométrica. ",
+          "line5": "\nEn esta fase se analiza la ",
+          "line6": "\nviabilidad de la ",
+          "line7": "\nconstrucción."
+        }
       },
       "4d": {
         "title": "4D",
         "subtitle": "Planificación",
-        "text": "Permite detectar \ntempranamente posibles \nproblemas en el diseño, \ncomo así también \nprogramar los avances \na partir de los periodos \nde trabajo y establecer \nmetas temporales."
+        "text": {
+          "line1": "Permite detectar ",
+          "line2": "\ntempranamente posibles ",
+          "line3": "\nproblemas en el diseño, ",
+          "line4": "\ncomo así también ",
+          "line5": "\nprogramar los avances ",
+          "line6": "\na partir de los periodos ",
+          "line7": "\nde trabajo y establecer ",
+          "line8": "\nmetas temporales."
+        }
       },
       "5d": {
         "title": "5D",
-        "subtitle": "Estimación \nde presupuesto",
-        "text": "Se incorpora \nla información de costos \nal modelo, lo que permite \nprever un presupuesto, \nen base a toda la \ninformación recopilada."
+        "subtitle": {
+          "line1": "Estimación ",
+          "line2": "\nde presupuesto"
+        },
+        "text": {
+          "line1": "Se incorpora ",
+          "line2": "\nla información de costos ",
+          "line3": "\nal modelo, lo que permite ",
+          "line4": "\nprever un presupuesto, ",
+          "line5": "\nen base a toda la ",
+          "line6": "\ninformación recopilada."
+        }
       },
       "6d": {
         "title": "6D",
         "subtitle": "Sostenibilidad",
-        "text": "Permite evaluar \nel impacto social, \neconómico y ambiental. \nAsí como los estudios \nde eficiencia energética \nque parten del modelo \ncomo eléctrica, \nhidrosanitaria y HVAC."
+        "text": {
+          "line1": "Permite evaluar ",
+          "line2": "\nel impacto social, ",
+          "line3": "\neconómico y ambiental. ",
+          "line4": "\nAsí como los estudios ",
+          "line5": "\nde eficiencia energética ",
+          "line6": "\nque parten del modelo ",
+          "line7": "\ncomo eléctrica, ",
+          "line8": "\nhidrosanitaria y HVAC."
+        }
       },
       "7d": {
         "title": "7D",
         "subtitle": "Gestión",
-        "text": "Permite realizar la gestión \noperativa a lo largo \nde la vida útil del edificio \no activo, también llamada \nFacility Management."
+        "text": {
+          "line1": "Permite realizar la gestión ",
+          "line2": "\noperativa a lo largo ",
+          "line3": "\nde la vida útil del edificio ",
+          "line4": "\no activo, también llamada ",
+          "line5": "\nFacility Management."
+        }
       }
     }
   },
   "contact": {
-    "title": "¿Tienes en mente un proyecto?",
-    "subtitle": "Escríbenos y nos pondremos en contacto.",
+    "title": "¿Tienes en mente \nun proyecto?",
+    "subtitle": "Escríbenos y nos pondremos \nen contacto.",
     "form": {
       "label1": "Nombre",
       "label2": "Correo",
-      "label3": "Cuéntanos más acerca de tu proyecto",
+      "label3": "Cuéntanos más \nacerca de tu proyecto",
       "textBtn": "Enviar"
     },
     "img": {

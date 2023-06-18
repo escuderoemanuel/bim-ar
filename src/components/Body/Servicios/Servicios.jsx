@@ -19,13 +19,6 @@ const ServicioItem = ({ titleKey, subtitleKey, textKey }) => {
 
 const Servicios = () => {
   const [t] = useTranslation('global');
-  const servicesList = [
-    { title: '3d', subtitle: '3d.subtitle', text: '3d.text' },
-    { title: '4d', subtitle: '4d.subtitle', text: '4d.text' },
-    { title: '5d', subtitle: '5d.subtitle', text: '5d.text' },
-    { title: '6d', subtitle: '6d.subtitle', text: '6d.text' },
-    { title: '7d', subtitle: '7d.subtitle', text: '7d.text' },
-  ];
 
   return (
     <section
@@ -35,17 +28,116 @@ const Servicios = () => {
       <div className='serviciosContainer'>
         <div className='serviciosText'>
           <h2>{t('services.title1')}</h2>
-          <p className=''>{t('services.paragraph1')}</p>
+          <p className=''>
+            {t('services.paragraph1.line1')}
+            <br />
+            {t('services.paragraph1.line2')}
+            <br />
+            {t('services.paragraph1.line3')}
+          </p>
         </div>
         <div className='servContainer'>
-          {servicesList.map((service) => (
-            <ServicioItem
-              key={service.title}
-              titleKey={`services.servicesList.${service.title}.title`}
-              subtitleKey={`services.servicesList.${service.title}.subtitle`}
-              textKey={`services.servicesList.${service.title}.text`}
-            />
-          ))}
+          <div className='serv'>
+            <h1>{t('services.servicesList.3d.title')}</h1>
+            <h3>{t('services.servicesList.3d.subtitle')}</h3>
+            <p>
+              {t('services.servicesList.3d.text.line1')}
+              <br />
+              {t('services.servicesList.3d.text.line2')}
+              <br />
+              {t('services.servicesList.3d.text.line3')}
+              <br />
+              {t('services.servicesList.3d.text.line4')}
+              <br />
+              {t('services.servicesList.3d.text.line5')}
+              <br />
+              {t('services.servicesList.3d.text.line6')}
+              <br />
+              {t('services.servicesList.3d.text.line7')}
+            </p>
+          </div>
+
+          <div className='serv'>
+            <h1>{t('services.servicesList.4d.title')}</h1>
+            <h3>{t('services.servicesList.4d.subtitle')}</h3>
+            <p>
+              {t('services.servicesList.4d.text.line1')}
+              <br />
+              {t('services.servicesList.4d.text.line2')}
+              <br />
+              {t('services.servicesList.4d.text.line3')}
+              <br />
+              {t('services.servicesList.4d.text.line4')}
+              <br />
+              {t('services.servicesList.4d.text.line5')}
+              <br />
+              {t('services.servicesList.4d.text.line6')}
+              <br />
+              {t('services.servicesList.4d.text.line7')}
+              <br />
+              {t('services.servicesList.4d.text.line8')}
+            </p>
+          </div>
+
+          <div className='serv'>
+            <h1>{t('services.servicesList.5d.title')}</h1>
+            <h3>
+              {t('services.servicesList.5d.subtitle.line1')}
+              <br />
+              {t('services.servicesList.5d.subtitle.line2')}
+            </h3>
+            <p>
+              {t('services.servicesList.5d.text.line1')}
+              <br />
+              {t('services.servicesList.5d.text.line2')}
+              <br />
+              {t('services.servicesList.5d.text.line3')}
+              <br />
+              {t('services.servicesList.5d.text.line4')}
+              <br />
+              {t('services.servicesList.5d.text.line5')}
+              <br />
+              {t('services.servicesList.5d.text.line6')}
+            </p>
+          </div>
+
+          <div className='serv'>
+            <h1>{t('services.servicesList.6d.title')}</h1>
+            <h3>{t('services.servicesList.6d.subtitle')}</h3>
+            <p>
+              {t('services.servicesList.6d.text.line1')}
+              <br />
+              {t('services.servicesList.6d.text.line2')}
+              <br />
+              {t('services.servicesList.6d.text.line3')}
+              <br />
+              {t('services.servicesList.6d.text.line4')}
+              <br />
+              {t('services.servicesList.6d.text.line5')}
+              <br />
+              {t('services.servicesList.6d.text.line6')}
+              <br />
+              {t('services.servicesList.6d.text.line7')}
+              <br />
+              {t('services.servicesList.6d.text.line8')}
+            </p>
+          </div>
+
+          <div className='serv'>
+            <h1>{t('services.servicesList.7d.title')}</h1>
+            <h3>{t('services.servicesList.7d.subtitle')}</h3>
+            <p>
+              {t('services.servicesList.7d.text.line1')}
+              <br />
+              {t('services.servicesList.7d.text.line2')}
+              <br />
+              {t('services.servicesList.7d.text.line3')}
+              <br />
+              {t('services.servicesList.7d.text.line4')}
+              <br />
+              {t('services.servicesList.7d.text.line5')}
+            </p>
+          </div>
         </div>
       </div>
     </section>

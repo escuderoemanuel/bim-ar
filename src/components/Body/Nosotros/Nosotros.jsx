@@ -13,18 +13,32 @@ const Nosotros = () => {
         <div className='nosotrosText'>
           <h3>{t('aboutUs.title1')}</h3>
           <h2>
-            {t('aboutUs.title2.line1')}
-            <span>{t('aboutUs.title2.span1')}</span>
+            {t('aboutUs.title2.line1.line')}
+            <span>{t('aboutUs.title2.line1.span')}</span>
             <br />
-            {t('aboutUs.title2.line2')}
-            <span> {t('aboutUs.title2.span2')}</span>
+            {t('aboutUs.title2.line2.line')}
+            <span> {t('aboutUs.title2.line2.span')}</span>
           </h2>
           <p>
-            {t('aboutUs.paragraph1')}
-            <span> {t('aboutUs.span')}</span>
+            {t('aboutUs.paragraph1.line1')}
+            <br />
+            {t('aboutUs.paragraph1.line2')}
+            <br />
+            {t('aboutUs.paragraph1.line3')}
+            <br />
+            {t('aboutUs.paragraph1.line4')}
+            <br />
+            {t('aboutUs.paragraph1.line5.line')}
+            <span> {t('aboutUs.paragraph1.line5.span')}</span>
           </p>
           <br />
-          <p>{t('aboutUs.paragraph2')}</p>
+          <p>
+            {t('aboutUs.paragraph2.line1')}
+            <br />
+            {t('aboutUs.paragraph2.line2')}
+            <br />
+            {t('aboutUs.paragraph2.line3')}
+          </p>
           <button>
             <Link to='contact' smooth={true} duration={500}>
               <div className='divBtn'>
