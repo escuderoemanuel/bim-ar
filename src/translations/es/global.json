@@ -29,7 +29,7 @@
       "line2": "y la",
       "span2": "productividad"
     },
-    "paragraph1": "“BiMar” nace en 2019, con el objetivo de cubrir \nlas necesidades de digitalización y gestión de la información \ndel sector AECO, incorporando metodologías colaborativas \na partir del modelado paramétrico conocido \ncomo",
+    "paragraph1": "“BiMar” nace en 2019, con el objetivo \tde cubrir \nlas necesidades de digitalización y gestión de la información \ndel sector AECO, incorporando metodologías colaborativas \na partir del modelado paramétrico conocido \ncomo",
     "span": "Building Information Modeling (BIM).",
     "paragraph2": "Somos un equipo de profesionales abocados a acompañar \nlos procesos de transformación digital de las empresas, \nmaximizando los recursos y creando valor.",
     "textBtn": "Contáctanos",
@@ -75,7 +75,7 @@
     "form": {
       "label1": "Nombre",
       "label2": "Correo",
-      "label3": "Cuéntanos mas acerca de tu proyecto",
+      "label3": "Cuéntanos más acerca de tu proyecto",
       "textBtn": "Enviar"
     },
     "img": {

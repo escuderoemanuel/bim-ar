@@ -56,7 +56,9 @@ const Contacto = () => {
               </div>
             </div>
             <div className='textArea'>
-              <label htmlFor='messagge'>{t('contact.form.label3')}</label>
+              <label className='labelTextArea' htmlFor='messagge'>
+                {t('contact.form.label3')}
+              </label>
               <textarea
                 name='messagge'
                 id='messagge'

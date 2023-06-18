@@ -24,3 +24,14 @@
   font-weight: 700;
   color: var(--texto-);
 }
+
+@media screen and (max-width: 600px) {
+  .banner {
+    height: 46px;
+    font-size: 15px;
+  }
+
+  .banner p {
+    margin-left: 4rem;
+  }
+}

@@ -3,6 +3,7 @@
   height: 372px;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .footerContainer {

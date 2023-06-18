@@ -23,3 +23,21 @@
   font-weight: 900;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .inicio {
+    height: 451px;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 95px;
+  }
+
+  .inicioContainer {
+    max-width: 330px;
+  }
+
+  .inicioContainer h1 {
+    font-size: 25px;
+    font-weight: 900;
+  }
+}

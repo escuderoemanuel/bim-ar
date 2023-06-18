@@ -38,11 +38,11 @@
 }
 
 .toggle {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   display: none;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: 0.5rem;
   transition: all 0.5s;
@@ -52,8 +52,8 @@
 }
 
 .line {
-  width: 30px;
-  height: 5px;
+  width: 23px;
+  height: 3px;
   border-radius: 1rem;
   background-color: var(--fondo);
   transition: transform 0.5s;
