@@ -136,6 +136,10 @@ const Servicios = () => {
               {t('services.servicesList.7d.text.line4')}
               <br />
               {t('services.servicesList.7d.text.line5')}
+              <br />
+              {t('services.servicesList.7d.text.line6')}
+              <br />
+              {t('services.servicesList.7d.text.line7')}
             </p>
           </div>
         </div>

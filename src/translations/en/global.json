@@ -24,14 +24,30 @@
   "aboutUs": {
     "title1": "About Us",
     "title2": {
-      "line1": "We maximize",
-      "span1": " efficiency",
-      "line2": "and",
-      "span2": " productivity"
+      "line1": {
+        "line": "We maximize ",
+        "span": "efficiency "
+      },
+      "line2": {
+        "line": "\nand ",
+        "span": "productivity"
+      }
     },
-    "paragraph1": "“BiMar” was born in 2019, with the aim of meeting \nthe digitization and information management needs of \nthe AECO sector, incorporating collaborative methodologies \nbased on parametric modeling known \nas",
-    "span": "Building Information Modeling (BIM).",
-    "paragraph2": "We are a team of professionals dedicated to accompanying \ncompanies digital transformation processes, \nmaximizing resources and value creation.",
+    "paragraph1": {
+      "line1": "“BiMar” was born in 2019, with the aim \nof meeting ",
+      "line2": "the digitization \nand information management needs \nof ",
+      "line3": "the AECO sector, \nincorporating collaborative \nmethodologies ",
+      "line4": "based on parametric \nmodeling known ",
+      "line5": {
+        "line": "\nas",
+        "span": "Building Information Modeling \n(BIM)."
+      }
+    },
+    "paragraph2": {
+      "line1": "\n \nWe are a team of professionals \ndedicated to accompanying ",
+      "line2": "\ncompanies digital transformation \nprocesses, ",
+      "line3": "maximizing resources \nand value creation."
+    },
     "textBtn": "Contact Us",
     "img": {
       "url": "./assets/img/img-inicio.png",
@@ -40,42 +56,90 @@
   },
   "services": {
     "title1": "Our Services",
-    "paragraph1": "We provide Modeling and Information Management services under \nISO Quality standards, allowing the exchange of information in an agile, complete, \nand consistent manner, from the beginning and throughout the life cycle of each project.",
+    "paragraph1": {
+      "line1": "We provide Modeling \nand Information Management \nservices under ",
+      "line2": "ISO Quality standards, allowing \nthe exchange of information \nin an agile, complete, ",
+      "line3": "\nand consistent manner, \nfrom the beginning \nand throughout the life \ncycle of each project."
+    },
     "servicesList": {
       "3d": {
         "title": "3D",
         "subtitle": "Analysis",
-        "text": "It allows finding \nsolutions in the geometric \nmodeling process. \nIn this phase the viability \nof the construction \nis analyzed."
+        "text": {
+          "line1": "It allows finding ",
+          "line2": "\nsolutions in the geometric ",
+          "line3": "\nmodeling process. ",
+          "line4": "\nIn this phase ",
+          "line5": "\nthe viability ",
+          "line6": "\nof the construction ",
+          "line7": "\nis analyzed."
+        }
       },
       "4d": {
         "title": "4D",
         "subtitle": "Planning",
-        "text": "It allows early \ndetection of possible \nproblems in the design, \nas well as \nscheduling progress based \non work periods \nand setting time goals."
+        "text": {
+          "line1": "It allows early ",
+          "line2": "\ndetection of possible ",
+          "line3": "\nproblems in the design, ",
+          "line4": "\nas well as ",
+          "line5": "\nscheduling progress based ",
+          "line6": "\non work periods ",
+          "line7": "\nand setting ",
+          "line8": "\ntime goals."
+        }
       },
       "5d": {
         "title": "5D",
-        "subtitle": "Budget estimate",
-        "text": "Cost information \nis incorporated into \nthe model, \nwhich allows forecasting \na budget based \non all the \ninformation collected."
+        "subtitle": {
+          "line1": "Budget ",
+          "line2": "\nestimate"
+        },
+        "text": {
+          "line1": "Cost information ",
+          "line2": "\nis incorporated into ",
+          "line3": "\nthe model, which allows ",
+          "line4": "\nforecasting a budget ",
+          "line5": "\nbased on all the ",
+          "line6": "\ninformation collected."
+        }
       },
       "6d": {
         "title": "6D",
         "subtitle": "Sustainability",
-        "text": "It allows the evaluation \nof the social, \neconomic and environmental impact, \nas well as the energy \nefficiency studies \nthat start from the model \nsuch as electrical, \nhydrosanitary, and HVAC."
+        "text": {
+          "line1": "It allows the evaluation ",
+          "line2": "\nof the social, ",
+          "line3": "\neconomic and environmental impact, ",
+          "line4": "\nas well as the energy ",
+          "line5": "\nefficiency studies ",
+          "line6": "\nthat start from the model ",
+          "line7": "\nsuch as electrical, ",
+          "line8": "\nhydrosanitary, and HVAC."
+        }
       },
       "7d": {
         "title": "7D",
         "subtitle": "Management",
-        "text": "It allows \noperational management \nto be carried out throughout \nthe useful life \nof the building or asset, \nalso called \nFacility Management."
+        "text": {
+          "line1": "It allows operational ",
+          "line2": "\nmanagement to be carried ",
+          "line3": "\nout throughout ",
+          "line4": "\nthe useful life ",
+          "line5": "\nof the building ",
+          "line6": "\nor asset, also called ",
+          "line7": "\nFacility Management."
+        }
       }
     }
   },
   "contact": {
-    "title": "Do you have a project in mind?",
-    "subtitle": "Communicate with us and we’ll get in touch with you",
+    "title": "Do you have a project \nin mind?",
+    "subtitle": "Communicate with us and we’ll get \nin touch with you",
     "form": {
       "label1": "Name",
       "label2": "Email",
-      "label3": "Tell us more about your project.",
+      "label3": "Tell us more about \nyour project.",
       "textBtn": "Send"
     },
     "img": {

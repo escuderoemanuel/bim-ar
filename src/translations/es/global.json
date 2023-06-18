@@ -26,10 +26,10 @@
     "title2": {
       "line1": {
         "line": "Maximizamos la",
-        "span": " eficiencia"
+        "span": " eficiencia "
       },
       "line2": {
-        "line": "\n y la",
+        "line": "\ny la",
         "span": "productividad"
       }
     },
@@ -126,7 +126,9 @@
           "line2": "\noperativa a lo largo ",
           "line3": "\nde la vida útil del edificio ",
           "line4": "\no activo, también llamada ",
-          "line5": "\nFacility Management."
+          "line5": "\nFacility Management.",
+          "line6": "",
+          "line7": ""
         }
       }
     }
