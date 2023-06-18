@@ -1,0 +1,36 @@
+.proyectos {
+  width: 100%;
+  background-color: var(--fondo);
+  color: var(--texto);
+  padding: 110px 54px;
+}
+
+.proyectosContainer {
+  max-width: 1280px;
+  height: 526px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .proyectos {
+    padding: 56px 28px;
+  }
+
+  .proyectosContainer {
+    max-width: 330px;
+    height: 100%;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .wrap {
+    white-space: pre-wrap;
+  }
+
+  br {
+    display: none;
+  }
+}

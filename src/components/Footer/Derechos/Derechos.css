@@ -15,20 +15,12 @@
 
 @media screen and (max-width: 600px) {
   .derechos {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: start;
-    border-top: 3px solid rgba(255, 255, 255, 0.15);
-    margin-top: 16px;
-    padding: 16px 0rem;
-    font-size: 12px;
-    font-weight: 200;
+    padding: 16px 8px 0rem;
   }
 
   .derechos .link {
     margin-top: 0.5rem;
-    color: var(--hex-);
-    text-decoration: none;
   }
 }

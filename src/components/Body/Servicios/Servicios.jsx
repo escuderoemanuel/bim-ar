@@ -24,12 +24,12 @@ const Servicios = () => {
 
   const handlePrevClick = () => {
     const slider = document.querySelector('.servContainer');
-    slider.scrollLeft -= 300;
+    slider.scrollLeft -= 210;
   };
 
   const handleNextClick = () => {
     const slider = document.querySelector('.servContainer');
-    slider.scrollLeft += 300;
+    slider.scrollLeft += 210;
   };
 
   useEffect(() => {

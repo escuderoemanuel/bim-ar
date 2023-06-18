@@ -27,8 +27,7 @@
 @media screen and (max-width: 600px) {
   .inicio {
     height: 451px;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50%;
     padding-top: 95px;
   }
 
@@ -38,6 +37,5 @@
 
   .inicioContainer h1 {
     font-size: 25px;
-    font-weight: 900;
   }
 }
