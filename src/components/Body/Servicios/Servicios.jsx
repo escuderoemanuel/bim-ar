@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Servicios.css';
 import { useTranslation } from 'react-i18next';
 import backgroundImage from '../../../assets/img/img-servicios.png';
-import arrowLeft from '../../../assets/others/arrowLeft.png';
-import arrowRight from '../../../assets/others/arrowRight.png';
+import arrowPrev from '../../../assets/others/arrowLeft.png';
+import arrowNext from '../../../assets/others/arrowRight.png';
 
 const ServicioItem = ({ titleKey, subtitleKey, textKey }) => {
   const [t] = useTranslation('global');
@@ -21,6 +21,29 @@ const ServicioItem = ({ titleKey, subtitleKey, textKey }) => {
 
 const Servicios = () => {
   const [t] = useTranslation('global');
+
+  const handlePrevClick = () => {
+    const slider = document.querySelector('.servContainer');
+    slider.scrollLeft -= 300;
+  };
+
+  const handleNextClick = () => {
+    const slider = document.querySelector('.servContainer');
+    slider.scrollLeft += 300;
+  };
+
+  useEffect(() => {
+    const prev = document.querySelector('.arrowPrev');
+    const next = document.querySelector('.arrowNext');
+
+    prev.addEventListener('click', handlePrevClick);
+    next.addEventListener('click', handleNextClick);
+
+    return () => {
+      prev.removeEventListener('click', handlePrevClick);
+      next.removeEventListener('click', handleNextClick);
+    };
+  }, []);
 
   return (
     <section
@@ -146,12 +169,16 @@ const Servicios = () => {
           </div>
         </div>
         <div className='arrowsSlide'>
-          <img className='arrow arrowLeft' src={arrowLeft} alt='Arrow Left' />
-          <img
-            className='arrow arrowRight'
-            src={arrowRight}
-            alt='Arrow Right'
-          />
+          <button onClick={handlePrevClick}>
+            <img className='arrow arrowPrev' src={arrowPrev} alt='Arrow Left' />
+          </button>
+          <button onClick={handleNextClick}>
+            <img
+              className='arrow arrowNext'
+              src={arrowNext}
+              alt='Arrow Right'
+            />
+          </button>
         </div>
       </div>
     </section>

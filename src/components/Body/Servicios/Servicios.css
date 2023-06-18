@@ -113,27 +113,12 @@
 
 @media screen and (max-width: 600px) {
   .servicios {
-    width: 100%;
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
     padding: 56px 34px;
-  }
-
-  .serviciosContainer {
-    max-width: 330px;
-    margin: auto;
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
   }
 
   .serviciosText {
     padding: 0.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
 
   .serviciosText h2 {
@@ -146,19 +131,27 @@
     letter-spacing: normal;
   }
 
+  .serviciosContainer button {
+    background-color: transparent;
+    border: none;
+  }
+
   .serviciosContainer img {
     border-radius: 20px;
     width: 300px;
+    cursor: pointer;
   }
 
   .servContainer {
-    max-width: 1180px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    width: 100%;
+    width: 100vw;
+    flex-direction: row;
     flex-wrap: nowrap;
-    row-gap: 2rem;
-    overflow: scroll;
+    align-items: flex-end;
+    justify-content: start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 2rem;
   }
 
   .serv {
@@ -170,6 +163,7 @@
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
   }
 
   .serv h1 {
@@ -203,8 +197,8 @@
   }
 
   .arrowsSlide {
-    /* margin-top: 1rem; */
     width: 120px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
   }
@@ -212,6 +206,5 @@
   .arrowsSlide .arrow {
     width: 40px;
     height: auto;
-    margin-top: 2rem;
   }
 }
