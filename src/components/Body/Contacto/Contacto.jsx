@@ -32,8 +32,8 @@ const Contacto = () => {
 
     setTimeout(() => {
       const form = document.querySelector('#form');
-      form.reset(); // Vaciar los campos del formulario
-    }, 5000); // Esperar 5 segundos (5000 milisegundos) antes de vaciar los campos
+      form.reset();
+    }, 5000);
   }
 
   return (

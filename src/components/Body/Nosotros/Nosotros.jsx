@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 
 const Nosotros = () => {
-  /* i18next */
   const [t, i18n] = useTranslation('global');
   return (
     <section className='nosotros ' id='aboutUs'>

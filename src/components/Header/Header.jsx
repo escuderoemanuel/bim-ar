@@ -2,7 +2,6 @@ import './Header.css';
 import React, { useRef, useState } from 'react';
 import Logo from './Logo/Logo';
 import Navbar from './Navbar/Navbar';
-import Language from './Language/Language';
 
 const Header = () => {
   window.addEventListener('scroll', function () {

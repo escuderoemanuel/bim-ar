@@ -4,7 +4,6 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { useTranslation } from 'react-i18next';
 import Language from '../Language/Language';
-import { use } from 'i18next';
 
 const Navbar = () => {
   /* i18next */
