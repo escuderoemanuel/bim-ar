@@ -1,14 +1,14 @@
 .nosotros {
   width: 100%;
-  height: 720px;
   height: auto;
   background-color: var(--fondo);
   color: var(--texto);
-  padding: 54px;
+  padding: 110px;
 }
 
 .nosotrosContainer {
   max-width: 1280px;
+  height: 526px;
   margin: auto;
   display: flex;
   justify-content: space-between;

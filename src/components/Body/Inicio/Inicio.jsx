@@ -1,7 +1,6 @@
 import React from 'react';
 import './Inicio.css';
 import Banner from './Banner/Banner';
-import backgroundImage from '../../../assets/img/img-home.png';
 import backgroundImageInicio from '../../../assets/img/img-inicio.png';
 
 /* Translate */

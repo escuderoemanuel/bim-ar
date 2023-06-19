@@ -78,7 +78,7 @@ const Navbar = () => {
             activeSection === 'home' && !isScrolling ? 'active' : ''
           }`}
           to='home'
-          offset={-95}
+          offset={-100}
           spy={true}
           smooth={true}
           duration={500}
@@ -91,7 +91,7 @@ const Navbar = () => {
           }`}
           to='aboutUs'
           spy={true}
-          offset={-95}
+          offset={-100}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('aboutUs')}>
@@ -103,7 +103,7 @@ const Navbar = () => {
           }`}
           to='services'
           spy={true}
-          offset={-95}
+          offset={-100}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('services')}>
@@ -116,7 +116,7 @@ const Navbar = () => {
           to='contact'
           spy={true}
           smooth={true}
-          offset={-95}
+          offset={-100}
           duration={500}
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}
