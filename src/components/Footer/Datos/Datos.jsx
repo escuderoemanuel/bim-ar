@@ -39,8 +39,8 @@ const Datos = () => {
           </div>
         </div>
         <div className='columna2'>
-          <h3>{t('footer.data.section2.title')}</h3>
           <nav>
+            <h3>{t('footer.data.section2.title')}</h3>
             <Link
               className={`navbar-link  ${
                 activeSection === 'home' ? 'active' : ''

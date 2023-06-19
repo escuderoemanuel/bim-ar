@@ -134,8 +134,25 @@ box-icon {
     width: auto;
   }
 
+  .columna2 nav {
+    margin: 0;
+  }
+
+  .columna2 .navbar-link {
+    font-size: 18px;
+    margin-bottom: 0.7rem;
+  }
+
+  .columna2 h3 {
+    font-size: 22px;
+    margin: 1rem 0rem;
+  }
+  .columna3 img {
+    width: 278px;
+    height: 244px;
+  }
+
   .columna3 {
-    width: auto;
     justify-content: space-between;
   }
 }

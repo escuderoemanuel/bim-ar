@@ -59,7 +59,7 @@
   background-color: var(--primary);
   width: 240px;
   height: 60px;
-  border-radius: 14px;
+  border-radius: 15px;
   font-weight: bold;
   cursor: pointer;
   color: var(--hex);
@@ -172,7 +172,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .nosotros {
-    padding: 2rem 1rem;
+    padding: 3.5rem 1rem;
   }
 
   .nosotrosContainer {
@@ -208,12 +208,16 @@ i {
   .nosotrosContainer button {
     margin: auto;
     margin-top: 30px;
+    height: 55px;
+    width: 233px;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .nosotrosContainer img {
     border-radius: 20px;
-    width: 330px;
-    height: auto;
+    width: 323px;
+    height: 317px;
     margin: 0;
     margin-bottom: 1rem;
   }
