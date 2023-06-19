@@ -139,3 +139,9 @@ box-icon {
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 325px) {
+  .columna3 img {
+    width: 220px;
+  }
+}

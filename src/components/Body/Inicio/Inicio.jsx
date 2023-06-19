@@ -15,7 +15,7 @@ const Inicio = () => {
       className='inicio'
       id='home'
       style={{ backgroundImage: `url(${backgroundImageInicio})` }}>
-      <div className='inicioContainer'>
+      <div className='inicioContainer wrap'>
         <h1>
           {t('home.line1')} <br />
           {t('home.line2')} <span> {t('home.span')}</span>

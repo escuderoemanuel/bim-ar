@@ -9,11 +9,13 @@ import Proyectos from './Proyectos/Proyectos';
 const Body = () => {
   return (
     <div className='body'>
-      <Inicio></Inicio>
-      <Nosotros></Nosotros>
-      <Servicios></Servicios>
-      {/* <Proyectos></Proyectos> */}
-      <Contacto></Contacto>
+      <div className='bodyContainer'>
+        <Inicio></Inicio>
+        <Nosotros></Nosotros>
+        <Servicios></Servicios>
+        {/* <Proyectos></Proyectos> */}
+        <Contacto></Contacto>
+      </div>
     </div>
   );
 };

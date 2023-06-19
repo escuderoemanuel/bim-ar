@@ -97,7 +97,7 @@ form button {
   display: none;
 }
 
-.wrap {
+.contacto .wrap {
   white-space: normal;
 }
 
@@ -217,14 +217,56 @@ form button {
 
 @media screen and (max-width: 600px) {
   .contactoContainer {
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
   }
 
-  br {
+  form input,
+  form textarea {
+    width: 350px;
+  }
+
+  form textarea {
+    width: 350px;
+  }
+
+  form button {
+    width: 350px;
+  }
+
+  .contacto img {
+    width: 350px;
+    height: auto;
+  }
+
+  .contacto br {
     display: none;
   }
 
-  .wrap {
+  .contacto .wrap {
     white-space: pre-wrap;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .contactoContainer {
+    padding: 1rem;
+  }
+
+  form input,
+  form textarea {
+    width: 300px;
+  }
+
+  form textarea {
+    width: 300px;
+  }
+
+  form button {
+    width: 300px;
+  }
+
+  .contacto img {
+    width: 300px;
+    height: auto;
   }
 }

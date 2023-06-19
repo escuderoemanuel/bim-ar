@@ -37,8 +37,8 @@ const Contacto = () => {
   }
 
   return (
-    <section className='contacto wrap' id='contact'>
-      <div className='contactoContainer'>
+    <section className='contacto ' id='contact'>
+      <div className='contactoContainer wrap'>
         <div className='formContainer'>
           <div>
             <h3>{t('contact.title')}</h3>

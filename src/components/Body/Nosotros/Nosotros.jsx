@@ -8,8 +8,8 @@ const Nosotros = () => {
   /* i18next */
   const [t, i18n] = useTranslation('global');
   return (
-    <section className='nosotros wrap' id='aboutUs'>
-      <div className='nosotrosContainer'>
+    <section className='nosotros ' id='aboutUs'>
+      <div className='nosotrosContainer wrap'>
         <div className='nosotrosText'>
           <h3>{t('aboutUs.title1')}</h3>
           <h2>

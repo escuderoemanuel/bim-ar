@@ -16,14 +16,16 @@ const Derechos = () => {
 
   return (
     <div className='derechos'>
-      <p>{t('footer.rights.text1')}</p>
-      <Link
-        to={termsPath}
-        className='link'
-        target='_blank'
-        rel='noopener noreferrer'>
-        <p>{t('footer.rights.text2')}</p>
-      </Link>
+      <div className='derechosContainer wrap'>
+        <p>{t('footer.rights.text1')}</p>
+        <Link
+          to={termsPath}
+          className='link'
+          target='_blank'
+          rel='noopener noreferrer'>
+          <p>{t('footer.rights.text2')}</p>
+        </Link>
+      </div>
     </div>
   );
 };

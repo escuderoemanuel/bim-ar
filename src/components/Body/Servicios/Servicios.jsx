@@ -47,10 +47,10 @@ const Servicios = () => {
 
   return (
     <section
-      className='servicios wrap'
+      className='servicios'
       id='services'
       style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className='serviciosContainer'>
+      <div className='serviciosContainer wrap'>
         <div className='serviciosText'>
           <h2>{t('services.title1')}</h2>
           <p className=''>

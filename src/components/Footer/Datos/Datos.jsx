@@ -29,7 +29,7 @@ const Datos = () => {
 
   return (
     <div className='datos'>
-      <div className='datosContainer'>
+      <div className='datosContainer wrap'>
         <div className='columna1'>
           <Logo></Logo>
           <div className='social'>
@@ -46,7 +46,7 @@ const Datos = () => {
                 activeSection === 'home' ? 'active' : ''
               }`}
               to='home'
-              offset={-150}
+              offset={-95}
               spy={true}
               smooth={true}
               duration={500}
@@ -58,7 +58,7 @@ const Datos = () => {
                 activeSection === 'aboutUs' ? 'active' : ''
               }`}
               to='aboutUs'
-              offset={-100}
+              offset={-95}
               spy={true}
               smooth={true}
               duration={500}
@@ -70,7 +70,7 @@ const Datos = () => {
                 activeSection === 'services' ? 'active' : ''
               }`}
               to='services'
-              offset={-100}
+              offset={-95}
               spy={true}
               smooth={true}
               duration={500}
@@ -82,7 +82,7 @@ const Datos = () => {
                 activeSection === 'contact' ? 'active' : ''
               }`}
               to='contact'
-              offset={-100}
+              offset={-95}
               spy={true}
               smooth={true}
               duration={500}

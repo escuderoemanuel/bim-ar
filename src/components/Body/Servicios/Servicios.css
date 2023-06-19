@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding: 0;
 }
 
 .serviciosText {
@@ -32,12 +33,9 @@
 }
 
 .servContainer {
-  max-width: 1180px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  flex-wrap: wrap;
-  row-gap: 2rem;
 }
 
 .serv {
@@ -106,11 +104,11 @@
   display: none;
 }
 
-.wrap {
+.servicios .wrap {
   white-space: normal;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1260px) {
   .serviciosContainer button {
     background-color: transparent;
     border: none;
@@ -131,7 +129,6 @@
 
   .servContainer {
     width: 100%;
-    width: 100vw;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-end;
@@ -139,7 +136,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     scrollbar-color: transparent;
-    padding: 2rem;
+    padding: 0rem 2rem;
   }
 
   .serv {
@@ -192,11 +189,11 @@
     font-size: 24px;
   }
 
-  .wrap {
+  .servicios .wrap {
     white-space: pre-wrap;
   }
 
-  br {
+  .servicios br {
     display: none;
   }
 }

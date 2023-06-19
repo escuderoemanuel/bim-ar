@@ -9,7 +9,7 @@ const Footer = () => {
     <section
       className='footer'
       style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className='footerContainer'>
+      <div className='footerContainer wrap'>
         <Datos></Datos>
         <Derechos></Derechos>
       </div>
