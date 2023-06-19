@@ -37,7 +37,7 @@ const Contacto = () => {
   }
 
   return (
-    <section className='contacto' id='contact'>
+    <section className='contacto wrap' id='contact'>
       <div className='contactoContainer'>
         <div className='formContainer'>
           <div>

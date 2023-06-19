@@ -97,49 +97,13 @@ form button {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .contacto {
-    padding: 56px 34px;
-  }
+.wrap {
+  white-space: normal;
+}
 
-  .contactoContainer {
-    max-width: 330px;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .formContainer {
-    height: 100%;
-    width: 300px;
-    align-items: center;
-  }
-
-  .contactoContainer h3,
-  .contactoContainer p {
-    text-align: center;
-    line-height: 1;
-  }
-
-  .contactoContainer h3 {
-    margin: 1.5rem;
-  }
-
-  .contactoContainer p {
-    width: 280px;
-  }
-
+@media screen and (max-width: 1280px) {
   form {
-    align-items: center;
     height: 100%;
-  }
-
-  form label {
-    width: 300px;
-  }
-
-  .labelNameEmail,
-  .labelTextArea {
-    width: 300px;
   }
 
   .labelNameEmail {
@@ -155,32 +119,116 @@ form button {
   form input,
   form textarea {
     margin: 0.5rem 0rem;
+    width: 480px;
   }
 
   form textarea {
-    width: 300px;
+    width: 480px;
   }
 
   form button {
-    width: 300px;
-    padding: 1rem;
+    width: 480px;
     margin-top: 1.5rem;
     font-weight: 400;
   }
 
   .contacto img {
-    height: 317px;
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contacto {
+    padding: 40px;
+  }
+
+  form input,
+  form textarea {
+    width: 420px;
+  }
+
+  form textarea {
+    width: 420px;
+  }
+
+  form button {
+    width: 420px;
+  }
+
+  .contacto img {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .contacto {
+    padding: 30px;
+  }
+
+  .contactoContainer p {
+    font-size: 19px;
+  }
+  form input,
+  form textarea {
+    width: 360px;
+  }
+
+  form textarea {
+    width: 360px;
+  }
+
+  form button {
+    width: 360px;
+  }
+
+  .contacto img {
+    width: 360px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacto {
+    padding: 30px;
+  }
+
+  .contactoContainer {
+    flex-direction: column-reverse;
+  }
+
+  .contactoContainer h3,
+  .contactoContainer p {
+    text-align: center;
+    line-height: 1;
+  }
+
+  .contactoContainer h3 {
+    margin: 1.5rem;
+  }
+
+  form {
+    align-items: center;
   }
 
   .textArea {
     margin-top: 1.5rem;
   }
+}
 
-  .wrap {
-    white-space: pre-wrap;
+@media screen and (max-width: 600px) {
+  .contacto {
+    background-color: greenyellow;
+  }
+
+  .contactoContainer {
+    padding: 2rem 0rem;
   }
 
   br {
     display: none;
+  }
+
+  .wrap {
+    white-space: pre-wrap;
   }
 }
