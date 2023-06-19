@@ -22,7 +22,8 @@ const Derechos = () => {
           to={termsPath}
           className='link'
           target='_blank'
-          rel='noopener noreferrer'>
+          rel='noopener noreferrer'
+          alt={t('footer.rights.text2')}>
           <p>{t('footer.rights.text2')}</p>
         </Link>
       </div>

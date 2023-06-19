@@ -48,11 +48,21 @@ const Contacto = () => {
             <div className='labelNameEmail'>
               <div className='name'>
                 <label htmlFor='name'>{t('contact.form.label1')}</label>
-                <input type='text' name='name' id='name' />
+                <input
+                  type='text'
+                  name='name'
+                  id='name'
+                  alt={t('contact.form.label1')}
+                />
               </div>
               <div className='email'>
                 <label htmlFor='email'>{t('contact.form.label2')}</label>
-                <input type='email' name='email' id='email' />
+                <input
+                  type='email'
+                  name='email'
+                  id='email'
+                  alt={t('contact.form.label2')}
+                />
               </div>
             </div>
             <div className='textArea'>
@@ -63,13 +73,16 @@ const Contacto = () => {
                 name='messagge'
                 id='messagge'
                 cols='30'
-                rows='6'></textarea>
+                rows='6'
+                alt={t('contact.form.label3')}></textarea>
             </div>
-            <button>{t('contact.form.textBtn')}</button>
+            <button alt={t('contact.form.textBtn')}>
+              {t('contact.form.textBtn')}
+            </button>
           </form>
           <a href='mailto:escudero.mdz@gmail.com' id='mailto'></a>
         </div>
-        <img src={imgContact} alt='' />
+        <img src={imgContact} alt={t('contact.img.alt')} />
       </div>
     </section>
   );

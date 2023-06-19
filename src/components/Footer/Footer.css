@@ -1,18 +1,19 @@
 .footer {
   width: 100%;
-  height: 372px;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  padding: 45px;
 }
 
 .footerContainer {
   max-width: 1280px;
   margin: auto;
-  padding: 45px 45px 30px;
   font-size: 1.2em;
   text-align: center;
 }
+
 @media screen and (max-width: 920px) {
   .footer {
     margin: 0;

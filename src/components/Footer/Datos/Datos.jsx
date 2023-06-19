@@ -93,7 +93,7 @@ const Datos = () => {
         </div>
         <div className='columna3'>
           <img src={imgMap} alt={t('footer.data.section3.alt')} />
-          <button className='arrowUp'>
+          <button className='arrowUp' alt={t('header.navbar.link1')}>
             <Link
               className={`navbar-link  ${
                 activeSection === 'home' ? 'active' : ''

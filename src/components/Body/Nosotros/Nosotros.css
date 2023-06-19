@@ -3,12 +3,13 @@
   height: auto;
   background-color: var(--fondo);
   color: var(--texto);
-  padding: 110px;
+  padding: 110px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nosotrosContainer {
-  max-width: 1280px;
-  height: 526px;
+  max-width: 1366px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -17,20 +18,21 @@
 
 .nosotrosText {
   height: auto;
+  max-width: 525px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .nosotros h3 {
   color: var(--subtitulo);
   margin-bottom: 12px;
+  font-size: 23px;
 }
 
 .nosotros h2 {
   font-weight: 800;
   letter-spacing: -0.1px;
-  font-size: 36px;
+  font-size: 39px;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -41,6 +43,7 @@
 
 .nosotros p {
   line-height: 1.1;
+  letter-spacing: -0.5px;
 }
 
 .nosotros p span {
@@ -75,15 +78,15 @@ i {
 }
 
 .nosotrosContainer img {
-  border-radius: 20px;
-  height: 480px;
+  margin-left: 80px;
+  max-height: 526px;
 }
 
 .nosotros .wrap {
   white-space: normal;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1275px) {
   .nosotros p {
     font-size: 18px;
     letter-spacing: -0.5px;
@@ -95,12 +98,13 @@ i {
 
   .nosotrosContainer img {
     height: 420px;
+    margin-left: 80px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .nosotros {
-    padding: 40px;
+    padding: 80px 40px;
   }
 
   .nosotros h2 {
@@ -119,6 +123,7 @@ i {
 
   .nosotrosContainer img {
     height: 400px;
+    margin-left: 12px;
   }
 }
 
@@ -129,6 +134,13 @@ i {
 
   .nosotrosContainer {
     align-items: start;
+  }
+
+  .nosotrosText {
+    height: auto;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
   }
 
   .nosotros h2 {

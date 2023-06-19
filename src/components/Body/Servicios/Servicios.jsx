@@ -169,10 +169,10 @@ const Servicios = () => {
           </div>
         </div>
         <div className='arrowsSlide'>
-          <button onClick={handlePrevClick}>
+          <button onClick={handlePrevClick} alt='Arrow Left'>
             <img className='arrow arrowPrev' src={arrowPrev} alt='Arrow Left' />
           </button>
-          <button onClick={handleNextClick}>
+          <button onClick={handleNextClick} alt='Arrow Right'>
             <img
               className='arrow arrowNext'
               src={arrowNext}

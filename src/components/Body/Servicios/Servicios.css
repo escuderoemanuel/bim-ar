@@ -144,6 +144,10 @@
 }
 
 @media screen and (max-width: 920px) {
+  .servicios {
+    padding: 70px;
+  }
+
   .serviciosText {
     margin-bottom: 3rem;
   }
@@ -159,13 +163,22 @@
   }
 }
 
+@media screen and (max-width: 840px) {
+  .serviciosText {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .servicios {
+    padding: 30px;
+  }
   .serviciosText h2 {
     font-size: 30px;
   }
 
   .serviciosText p {
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: normal;
   }
 
@@ -175,10 +188,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .servicios {
-    padding: 30px;
-  }
-
   .serviciosText {
     padding: 0.5rem;
     margin-bottom: 0rem;

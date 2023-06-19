@@ -50,7 +50,7 @@ const Nosotros = () => {
           </button>
         </div>
         <div className='imgNosotros'>
-          <img src={imgNosotros} alt='' />
+          <img src={imgNosotros} alt={t('nosotros.img.alt')} />
         </div>
       </div>
     </section>
