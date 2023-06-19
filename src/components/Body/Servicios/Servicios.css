@@ -18,7 +18,6 @@
 }
 
 .serviciosText {
-  padding: 0 5rem;
   margin-bottom: 4rem;
 }
 
@@ -31,11 +30,6 @@
   font-size: 21px;
   letter-spacing: -1px;
 }
-
-/* .serviciosContainer img {
-  border-radius: 20px;
-  width: 300px;
-} */
 
 .servContainer {
   max-width: 1180px;
@@ -112,28 +106,27 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .servicios {
-    padding: 56px 34px;
-  }
+.wrap {
+  white-space: normal;
+}
 
-  .serviciosText {
-    padding: 0.5rem;
-    margin-bottom: 0rem;
-  }
-
-  .serviciosText h2 {
-    font-size: 24px;
-  }
-
-  .serviciosText p {
-    font-size: 19px;
-    letter-spacing: normal;
-  }
-
+@media screen and (max-width: 1280px) {
   .serviciosContainer button {
     background-color: transparent;
     border: none;
+  }
+
+  .arrowsSlide {
+    margin-top: 2rem;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .arrowsSlide .arrow {
+    width: 40px;
+    height: auto;
   }
 
   .servContainer {
@@ -152,6 +145,52 @@
   .serv {
     flex: 0 0 auto;
   }
+}
+
+@media screen and (max-width: 920px) {
+  .serviciosText {
+    margin-bottom: 3rem;
+  }
+
+  .serviciosText h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+  }
+
+  .serviciosText p {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .serviciosText h2 {
+    font-size: 30px;
+  }
+
+  .serviciosText p {
+    font-size: 19px;
+    letter-spacing: normal;
+  }
+
+  .arrowsSlide {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .servicios {
+    padding: 30px;
+  }
+
+  .serviciosText {
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+  }
+
+  .serviciosText h2 {
+    font-size: 24px;
+  }
 
   .wrap {
     white-space: pre-wrap;
@@ -159,18 +198,5 @@
 
   br {
     display: none;
-  }
-
-  .arrowsSlide {
-    margin-top: 0.5rem;
-    width: 120px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .arrowsSlide .arrow {
-    width: 40px;
-    height: auto;
   }
 }
