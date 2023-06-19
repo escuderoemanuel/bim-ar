@@ -8,6 +8,12 @@
   font-weight: 200;
 }
 
+.derechosContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .derechos .link {
   color: var(--hex-);
   text-decoration: none;
@@ -22,5 +28,11 @@
 
   .derechos .link {
     margin-top: 0.5rem;
+  }
+
+  .derechosContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
