@@ -1,12 +1,13 @@
 .servicios {
   width: 100%;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px 54px;
+  padding: 54px;
 }
 
 .serviciosContainer {
-  max-width: 1280x;
+  max-width: 1280px;
   margin: auto;
   font-size: 1.2em;
   display: flex;

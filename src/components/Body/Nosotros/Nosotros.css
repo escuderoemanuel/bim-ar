@@ -1,13 +1,14 @@
 .nosotros {
   width: 100%;
+  height: 720px;
+  height: auto;
   background-color: var(--fondo);
   color: var(--texto);
-  padding: 110px 54px;
+  padding: 54px;
 }
 
 .nosotrosContainer {
   max-width: 1280px;
-  height: 526px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -15,21 +16,24 @@
 }
 
 .nosotrosText {
-  height: 505px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nosotros h3 {
   color: var(--subtitulo);
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   padding: 0;
 }
 
 .nosotros h2 {
   font-weight: 800;
   letter-spacing: -0.1px;
-  font-size: 39px;
-  margin-bottom: 18px;
-  line-height: 1.3;
+  font-size: 36px;
+  margin-bottom: 12px;
+  line-height: 1.2;
 }
 
 .nosotros h2 span {
@@ -73,8 +77,9 @@ i {
 
 .nosotrosContainer img {
   border-radius: 20px;
-  height: 526px;
+  height: 480px;
 }
+
 .wrap {
   white-space: normal;
 }

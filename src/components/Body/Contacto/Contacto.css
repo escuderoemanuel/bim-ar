@@ -1,8 +1,9 @@
 .contacto {
   width: 100%;
+  height: auto;
   background-color: var(--fondo);
   color: var(--texto-contacto);
-  padding: 110px 54px;
+  padding: 54px;
 }
 
 .contactoContainer {
@@ -16,7 +17,7 @@
 }
 
 .formContainer {
-  height: 480px;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -83,7 +84,7 @@ form button {
 }
 
 .contacto img {
-  max-width: 443px;
+  height: 480px;
 }
 
 .textArea {
