@@ -68,16 +68,15 @@ box-icon {
 }
 
 @media screen and (max-width: 920px) {
-  .datosContainer {
+  .columna3 {
+    width: 300px;
     justify-content: space-between;
-  }
-
-  .columna2 .navbar-link {
-    font-size: 23px;
+    margin-bottom: 1rem;
   }
 
   .arrowUp {
-    margin-left: 1em;
+    margin-left: 1rem;
+    padding: 1rem;
   }
 }
 
@@ -116,18 +115,6 @@ box-icon {
     padding: 1rem;
   }
 }
-@media screen and (max-width: 920px) {
-  .columna3 {
-    width: 300px;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
-
-  .arrowUp {
-    margin-left: 1rem;
-    padding: 1rem;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .datosContainer {
@@ -146,6 +133,10 @@ box-icon {
   .columna2 h3 {
     font-size: 22px;
     margin: 1rem 0rem;
+  }
+
+  .columna3 {
+    width: 100%;
   }
   .columna3 img {
     width: 278px;
