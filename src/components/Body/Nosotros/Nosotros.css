@@ -25,14 +25,13 @@
 .nosotros h3 {
   color: var(--subtitulo);
   margin-bottom: 12px;
-  padding: 0;
 }
 
 .nosotros h2 {
   font-weight: 800;
   letter-spacing: -0.1px;
   font-size: 36px;
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
   line-height: 1.2;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .nosotros p {
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .nosotros p span {
@@ -84,9 +83,84 @@ i {
   white-space: normal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
+  .nosotros p {
+    font-size: 18px;
+    letter-spacing: -0.5px;
+  }
+
+  .nosotrosContainer button {
+    margin-top: 40px;
+  }
+
+  .nosotrosContainer img {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .nosotros {
-    padding: 56px 28px;
+    padding: 40px;
+  }
+
+  .nosotros h2 {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .nosotros p {
+    font-size: 17px;
+    letter-spacing: -0.8px;
+  }
+
+  .nosotrosContainer button {
+    margin-top: 32px;
+  }
+
+  .nosotrosContainer img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .nosotros {
+    padding: 30px;
+  }
+
+  .nosotrosContainer {
+    align-items: start;
+  }
+
+  .nosotros h2 {
+    font-size: 28px;
+  }
+
+  .nosotrosContainer button {
+    margin-top: 30px;
+  }
+
+  .nosotrosContainer img {
+    margin-top: 3rem;
+    height: 400px;
+  }
+
+  .nosotrosContainer button {
+    width: 220px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  br {
+    display: none;
+  }
+  .wrap {
+    white-space: pre-wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros {
+    padding: 0.5rem;
   }
 
   .nosotrosContainer {
@@ -97,11 +171,13 @@ i {
   }
 
   .nosotros h3 {
-    margin-bottom: 0px;
+    margin-bottom: 0.5rem;
     font-size: 20px;
   }
 
   .nosotros h2 {
+    margin-bottom: 2rem;
+    line-height: normal;
     font-size: 24px;
   }
 
@@ -111,13 +187,14 @@ i {
 
   .nosotros p {
     line-height: normal;
-    font-size: 16px;
+    letter-spacing: normal;
     text-align: left;
   }
 
   .nosotrosContainer button {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 2rem;
   }
 
   .nosotrosContainer img {
@@ -125,12 +202,10 @@ i {
     height: 317px;
     margin-bottom: 1rem;
   }
+}
 
-  .wrap {
-    white-space: pre-wrap;
-  }
-
-  br {
-    display: none;
-  }
+@media screen and (max-width: 600px) {
+  /* .nosotros {
+    background-color: greenyellow;
+  } */
 }
