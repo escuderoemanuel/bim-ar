@@ -216,10 +216,6 @@ form button {
 }
 
 @media screen and (max-width: 600px) {
-  .contacto {
-    background-color: greenyellow;
-  }
-
   .contactoContainer {
     padding: 2rem 0rem;
   }
