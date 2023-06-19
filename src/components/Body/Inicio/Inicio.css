@@ -24,6 +24,31 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .inicioContainer h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .inicio {
+    height: 600px;
+  }
+
+  .inicioContainer h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inicio {
+    height: 500px;
+  }
+  .inicioContainer h1 {
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .inicio {
     height: 451px;
