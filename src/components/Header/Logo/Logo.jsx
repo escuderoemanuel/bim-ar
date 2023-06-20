@@ -6,7 +6,14 @@ import { useTranslation } from 'react-i18next';
 const Logo = () => {
   const [t, i18n] = useTranslation('global');
 
-  return <img className='imgLogo' src={imgLogo} alt={t('logo.alt')} />;
+  return (
+    <img
+      className='imgLogo'
+      src={imgLogo}
+      aria-label={t('logo.alt')}
+      alt={t('logo.alt')}
+    />
+  );
 };
 
 export default Logo;

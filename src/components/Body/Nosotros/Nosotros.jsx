@@ -38,7 +38,7 @@ const Nosotros = () => {
             <br />
             {t('aboutUs.paragraph2.line3')}
           </p>
-          <button>
+          <button aria-label={t('aboutUs.textBtn')} alt={t('aboutUs.textBtn')}>
             <Link to='contact' smooth={true} duration={500}>
               <div className='divBtn'>
                 {t('aboutUs.textBtn')}
@@ -50,7 +50,11 @@ const Nosotros = () => {
           </button>
         </div>
         <div className='imgNosotros'>
-          <img src={imgNosotros} alt={t('nosotros.img.alt')} />
+          <img
+            src={imgNosotros}
+            aria-label={t('nosotros.img.alt')}
+            alt={t('nosotros.img.alt')}
+          />
         </div>
       </div>
     </section>

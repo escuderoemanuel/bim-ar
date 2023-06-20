@@ -76,13 +76,19 @@ const Contacto = () => {
                 rows='6'
                 alt={t('contact.form.label3')}></textarea>
             </div>
-            <button alt={t('contact.form.textBtn')}>
+            <button
+              aria-label={t('contact.form.textBtn')}
+              alt={t('contact.form.textBtn')}>
               {t('contact.form.textBtn')}
             </button>
           </form>
           <a href='mailto:escudero.mdz@gmail.com' id='mailto'></a>
         </div>
-        <img src={imgContact} alt={t('contact.img.alt')} />
+        <img
+          src={imgContact}
+          aria-label={t('contact.img.alt')}
+          alt={t('contact.img.alt')}
+        />
       </div>
     </section>
   );

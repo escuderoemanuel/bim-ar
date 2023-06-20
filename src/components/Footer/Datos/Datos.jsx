@@ -33,9 +33,21 @@ const Datos = () => {
         <div className='columna1'>
           <Logo></Logo>
           <div className='social'>
-            <img src={linkedIcon} alt={t('footer.data.social.social1.name')} />
-            <img src={instaIcon} alt={t('footer.data.social.social2.name')} />
-            <img src={faceIcon} alt={t('footer.data.social.social3.name')} />
+            <img
+              src={linkedIcon}
+              aria-label={t('footer.data.social.social1.name')}
+              alt={t('footer.data.social.social1.name')}
+            />
+            <img
+              src={instaIcon}
+              aria-label={t('footer.data.social.social2.name')}
+              alt={t('footer.data.social.social2.name')}
+            />
+            <img
+              src={faceIcon}
+              aria-label={t('footer.data.social.social3.name')}
+              alt={t('footer.data.social.social3.name')}
+            />
           </div>
         </div>
         <div className='columna2'>
@@ -92,8 +104,15 @@ const Datos = () => {
           </nav>
         </div>
         <div className='columna3'>
-          <img src={imgMap} alt={t('footer.data.section3.alt')} />
-          <button className='arrowUp' alt={t('header.navbar.link1')}>
+          <img
+            src={imgMap}
+            aria-label={t('footer.data.section3.alt')}
+            alt={t('footer.data.section3.alt')}
+          />
+          <button
+            className='arrowUp'
+            aria-label={t('header.navbar.link1')}
+            alt={t('header.navbar.link1')}>
             <Link
               className={`navbar-link  ${
                 activeSection === 'home' ? 'active' : ''

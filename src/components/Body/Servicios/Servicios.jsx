@@ -169,14 +169,26 @@ const Servicios = () => {
           </div>
         </div>
         <div className='arrowsSlide'>
-          <button onClick={handlePrevClick} alt='Arrow Left'>
-            <img className='arrow arrowPrev' src={arrowPrev} alt='Arrow Left' />
+          <button
+            onClick={handlePrevClick}
+            aria-label='Arrow Preview'
+            alt='Arrow Preview'>
+            <img
+              className='arrow arrowPrev'
+              src={arrowPrev}
+              aria-label='Arrow Preview'
+              alt='Arrow Arrow Preview'
+            />
           </button>
-          <button onClick={handleNextClick} alt='Arrow Right'>
+          <button
+            onClick={handleNextClick}
+            aria-label='Arrow Next'
+            alt='Arrow Next'>
             <img
               className='arrow arrowNext'
               src={arrowNext}
-              alt='Arrow Right'
+              aria-label='Arrow Next'
+              alt='Arrow Next'
             />
           </button>
         </div>

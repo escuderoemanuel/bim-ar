@@ -76,6 +76,8 @@ const Navbar = () => {
           className={`navbar-link  ${
             activeSection === 'home' && !isScrolling ? 'active' : ''
           }`}
+          aria-label={t('header.navbar.link1')}
+          alt={t('header.navbar.link1')}
           to='home'
           offset={-100}
           spy={true}
@@ -88,6 +90,8 @@ const Navbar = () => {
           className={`navbar-link ${
             activeSection === 'aboutUs' && !isScrolling ? 'active' : ''
           }`}
+          aria-label={t('header.navbar.link2')}
+          alt={t('header.navbar.link2')}
           to='aboutUs'
           spy={true}
           offset={-100}
@@ -100,6 +104,8 @@ const Navbar = () => {
           className={`navbar-link ${
             activeSection === 'services' && !isScrolling ? 'active' : ''
           }`}
+          aria-label={t('header.navbar.link3')}
+          alt={t('header.navbar.link3')}
           to='services'
           spy={true}
           offset={-100}
@@ -112,6 +118,8 @@ const Navbar = () => {
           className={`navbar-link ${
             activeSection === 'contact' && !isScrolling ? 'active' : ''
           }`}
+          aria-label={t('header.navbar.link4')}
+          alt={t('header.navbar.link4')}
           to='contact'
           spy={true}
           smooth={true}

@@ -14,7 +14,7 @@ const Language = () => {
 
   return (
     <div className='languages'>
-      <i>
+      <i alt='World Icon' aria-label='World Icon'>
         <box-icon className='icon' name='world' size='28px'></box-icon>
       </i>
       <select

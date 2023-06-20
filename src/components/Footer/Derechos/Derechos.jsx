@@ -23,6 +23,7 @@ const Derechos = () => {
           className='link'
           target='_blank'
           rel='noopener noreferrer'
+          aria-label={t('footer.rights.text2')}
           alt={t('footer.rights.text2')}>
           <p>{t('footer.rights.text2')}</p>
         </Link>
