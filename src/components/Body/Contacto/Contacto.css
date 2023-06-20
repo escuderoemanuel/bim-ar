@@ -150,18 +150,8 @@ form button {
   }
 
   form input,
-  form textarea {
-    width: 420px;
-  }
-
-  form textarea {
-    width: 420px;
-  }
-
-  form button {
-    width: 420px;
-  }
-
+  form textarea,
+  form button,
   .contacto img {
     width: 420px;
   }
@@ -177,29 +167,18 @@ form button {
   }
 
   form input,
-  form textarea {
-    width: 360px;
-  }
-
-  form textarea {
-    width: 360px;
-  }
-
-  form button {
+  form textarea,
+  form button,
+  .contacto img {
     width: 360px;
   }
 
   .contacto img {
-    width: 360px;
     height: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .contacto {
-    padding: 30px;
-  }
-
   .contactoContainer {
     flex-direction: column-reverse;
   }
@@ -241,21 +220,19 @@ form button {
   }
 
   form input,
-  form textarea {
-    width: 294px;
-  }
-
-  .textArea {
-    margin: 0;
-  }
-
-  form button {
+  form textarea,
+  form button,
+  .contacto img {
     width: 294px;
   }
 
   .contacto img {
     width: 323px;
     height: 317px;
+  }
+
+  .textArea {
+    margin: 0;
   }
 
   .contactoContainer h3 {
@@ -280,6 +257,6 @@ form button {
 
 @media screen and (max-width: 375px) {
   .contactoContainer {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
