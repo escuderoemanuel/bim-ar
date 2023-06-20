@@ -60,6 +60,7 @@
   width: 240px;
   height: 60px;
   border-radius: 15px;
+  font-size: 24px;
   font-weight: bold;
   cursor: pointer;
   color: var(--hex);

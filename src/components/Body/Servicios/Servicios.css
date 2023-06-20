@@ -3,7 +3,7 @@
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px;
+  padding: 100px;
 }
 
 .serviciosContainer {
@@ -29,6 +29,7 @@
 .serviciosText p {
   font-size: 21px;
   letter-spacing: -1px;
+  font-weight: 300;
 }
 
 .servContainer {
