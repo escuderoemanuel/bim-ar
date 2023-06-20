@@ -105,7 +105,7 @@ form button {
 
 @media screen and (max-width: 1275px) {
   .contacto {
-    padding: 90px;
+    padding: 90px 80px;
   }
 
   form {
@@ -159,7 +159,7 @@ form button {
 
 @media screen and (max-width: 920px) {
   .contacto {
-    padding: 30px;
+    padding: 3.5rem ;
   }
 
   .contactoContainer p {

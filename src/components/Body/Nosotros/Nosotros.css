@@ -3,7 +3,7 @@
   height: auto;
   background-color: var(--fondo);
   color: var(--texto);
-  padding: 110px 50px;
+  padding: 110px 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -129,10 +129,6 @@ i {
 }
 
 @media screen and (max-width: 920px) {
-  .nosotros {
-    padding: 80px;
-  }
-
   .nosotrosContainer {
     align-items: start;
   }
@@ -173,7 +169,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .nosotros {
-    padding: 80px 1rem;
+    padding: 3.5rem 0.5rem;
   }
 
   .nosotrosContainer {
