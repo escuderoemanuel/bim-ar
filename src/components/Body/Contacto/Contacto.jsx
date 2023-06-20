@@ -24,7 +24,7 @@ const Contacto = () => {
     const buttonMailto = document.querySelector('#mailto');
     buttonMailto.setAttribute(
       'href',
-      `mailto:emanuelescudero.dev@gmail.com?subject=${formulario.get(
+      `mailto:bim.ar.aec@gmail.com?subject=${formulario.get(
         'name'
       )}&body=${formulario.get('messagge')}`
     );
@@ -82,7 +82,7 @@ const Contacto = () => {
               {t('contact.form.textBtn')}
             </button>
           </form>
-          <a href='mailto:escudero.mdz@gmail.com' id='mailto'></a>
+          <a href='mailto:bim.ar.aec@gmail.com' id='mailto'></a>
         </div>
         <img
           src={imgContact}
