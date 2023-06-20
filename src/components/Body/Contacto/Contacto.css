@@ -3,7 +3,8 @@
   height: auto;
   background-color: var(--fondo);
   color: var(--texto-contacto);
-  padding: 110px 80px;
+  padding-top: 110px;
+
   display: flex;
 }
 
@@ -104,9 +105,9 @@ form button {
 }
 
 @media screen and (max-width: 1275px) {
-  .contacto {
+  /* .contacto {
     padding: 90px 80px;
-  }
+  } */
 
   form {
     height: 100%;
@@ -145,10 +146,10 @@ form button {
 }
 
 @media screen and (max-width: 1024px) {
-  .contacto {
+  /* .contacto {
     padding: 40px;
   }
-
+ */
   form input,
   form textarea,
   form button,
@@ -158,9 +159,9 @@ form button {
 }
 
 @media screen and (max-width: 920px) {
-  .contacto {
-    padding: 3.5rem ;
-  }
+  /*  .contacto {
+    padding: 3.5rem;
+  } */
 
   .contactoContainer p {
     font-size: 19px;
@@ -207,9 +208,9 @@ form button {
 }
 
 @media screen and (max-width: 600px) {
-  .contacto {
+  /* .contacto {
     padding: 3.5rem 0.5rem;
-  }
+  } */
 
   form label {
     font-weight: 500;

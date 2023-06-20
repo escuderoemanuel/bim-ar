@@ -3,7 +3,7 @@
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px 80px;
+  padding-top: 110px;
 }
 
 .serviciosContainer {
@@ -145,9 +145,9 @@
 }
 
 @media screen and (max-width: 920px) {
-  .servicios {
+  /* .servicios {
     padding: 40px;
-  }
+  } */
 
   .serviciosText {
     margin-bottom: 3rem;
@@ -171,9 +171,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .servicios {
+  /* .servicios {
     padding: 30px;
-  }
+  } */
   .serviciosText h2 {
     font-size: 30px;
   }

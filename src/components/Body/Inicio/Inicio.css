@@ -44,6 +44,7 @@
   .inicio {
     height: 500px;
   }
+
   .inicioContainer h1 {
     font-size: 40px;
   }
@@ -53,7 +54,7 @@
   .inicio {
     height: 451px;
     background-position: 50%;
-    padding-top: 90px;
+    /* padding-top: 90px; */
   }
 
   .inicioContainer {
