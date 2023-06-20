@@ -58,7 +58,7 @@ const Datos = () => {
                 activeSection === 'home' ? 'active' : ''
               }`}
               to='home'
-              offset={-95}
+              offset={-90}
               spy={true}
               smooth={true}
               duration={500}
@@ -118,7 +118,7 @@ const Datos = () => {
                 activeSection === 'home' ? 'active' : ''
               }`}
               to='home'
-              offset={-95}
+              offset={-90}
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('home')}>

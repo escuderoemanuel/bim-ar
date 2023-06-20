@@ -79,7 +79,7 @@ const Navbar = () => {
           aria-label={t('header.navbar.link1')}
           alt={t('header.navbar.link1')}
           to='home'
-          offset={-95}
+          offset={-90}
           spy={true}
           smooth={true}
           duration={500}
