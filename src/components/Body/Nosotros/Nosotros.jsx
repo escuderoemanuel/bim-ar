@@ -39,7 +39,12 @@ const Nosotros = () => {
             {t('aboutUs.paragraph2.line3')}
           </p>
           <button aria-label={t('aboutUs.textBtn')} alt={t('aboutUs.textBtn')}>
-            <Link to='contact' smooth={true} duration={500}>
+            <Link
+              to='contact'
+              spy={true}
+              offset={-94}
+              smooth={true}
+              duration={500}>
               <div className='divBtn'>
                 {t('aboutUs.textBtn')}
                 <i>
