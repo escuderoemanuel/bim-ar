@@ -70,7 +70,7 @@ const Datos = () => {
                 activeSection === 'aboutUs' ? 'active' : ''
               }`}
               to='aboutUs'
-              offset={-95}
+              offset={-90}
               spy={true}
               smooth={true}
               duration={500}
@@ -82,7 +82,7 @@ const Datos = () => {
                 activeSection === 'services' ? 'active' : ''
               }`}
               to='services'
-              offset={-95}
+              offset={-90}
               spy={true}
               smooth={true}
               duration={500}
@@ -94,7 +94,7 @@ const Datos = () => {
                 activeSection === 'contact' ? 'active' : ''
               }`}
               to='contact'
-              offset={-95}
+              offset={-90}
               spy={true}
               smooth={true}
               duration={500}
@@ -118,7 +118,7 @@ const Datos = () => {
                 activeSection === 'home' ? 'active' : ''
               }`}
               to='home'
-              offset={-100}
+              offset={-95}
               smooth={true}
               duration={500}
               onClick={() => handleLinkClick('home')}>
