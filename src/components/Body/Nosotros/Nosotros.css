@@ -130,7 +130,7 @@ i {
 
 @media screen and (max-width: 920px) {
   .nosotros {
-    padding: 70px;
+    padding: 80px;
   }
 
   .nosotrosContainer {
@@ -173,7 +173,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .nosotros {
-    padding: 3.5rem 1rem;
+    padding: 80px 1rem;
   }
 
   .nosotrosContainer {
