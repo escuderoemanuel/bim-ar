@@ -208,10 +208,6 @@ form button {
 }
 
 @media screen and (max-width: 600px) {
-  /* .contacto {
-    padding: 3.5rem 0.5rem;
-  } */
-
   form label {
     font-weight: 500;
   }
