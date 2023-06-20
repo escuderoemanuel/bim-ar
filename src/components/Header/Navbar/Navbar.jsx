@@ -79,7 +79,7 @@ const Navbar = () => {
           aria-label={t('header.navbar.link1')}
           alt={t('header.navbar.link1')}
           to='home'
-          offset={-90}
+          offset={-80}
           spy={true}
           smooth={true}
           duration={500}
@@ -94,7 +94,7 @@ const Navbar = () => {
           alt={t('header.navbar.link2')}
           to='aboutUs'
           spy={true}
-          offset={-90}
+          offset={-80}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('aboutUs')}>
@@ -108,7 +108,7 @@ const Navbar = () => {
           alt={t('header.navbar.link3')}
           to='services'
           spy={true}
-          offset={-90}
+          offset={-80}
           smooth={true}
           duration={500}
           onClick={() => handleLinkClick('services')}>
@@ -123,7 +123,7 @@ const Navbar = () => {
           to='contact'
           spy={true}
           smooth={true}
-          offset={-90}
+          offset={80}
           duration={500}
           onClick={() => handleLinkClick('contact')}>
           {t('header.navbar.link4')}

@@ -58,7 +58,7 @@ const Datos = () => {
                 activeSection === 'home' ? 'active' : ''
               }`}
               to='home'
-              offset={-90}
+              offset={-80}
               spy={true}
               smooth={true}
               duration={500}
@@ -70,7 +70,7 @@ const Datos = () => {
                 activeSection === 'aboutUs' ? 'active' : ''
               }`}
               to='aboutUs'
-              offset={-90}
+              offset={-80}
               spy={true}
               smooth={true}
               duration={500}
@@ -82,7 +82,7 @@ const Datos = () => {
                 activeSection === 'services' ? 'active' : ''
               }`}
               to='services'
-              offset={-90}
+              offset={-80}
               spy={true}
               smooth={true}
               duration={500}
@@ -94,7 +94,7 @@ const Datos = () => {
                 activeSection === 'contact' ? 'active' : ''
               }`}
               to='contact'
-              offset={-90}
+              offset={-80}
               spy={true}
               smooth={true}
               duration={500}
