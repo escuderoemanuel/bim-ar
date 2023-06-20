@@ -98,9 +98,9 @@ companies digital transformation
 processes, `,line3:`maximizing resources 
 and value creation.`},textBtn:"Contact Us",img:{url:"./assets/img/img-inicio.png",alt:"Building"}},g0={title1:"Our Services",paragraph1:{line1:`We provide Modeling 
 and Information Management 
-services under `,line2:`ISO Quality standards, allowing 
-the exchange of information 
-in an agile, complete, `,line3:`
+services under `,line2:`ISO Quality standards, 
+allowing the exchange of information 
+in an agile, complete `,line3:`
 and consistent manner, 
 from the beginning 
 and throughout the life 
