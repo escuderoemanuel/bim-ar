@@ -145,10 +145,6 @@
 }
 
 @media screen and (max-width: 920px) {
-  /* .servicios {
-    padding: 40px;
-  } */
-
   .serviciosText {
     margin-bottom: 3rem;
   }
@@ -171,9 +167,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* .servicios {
-    padding: 30px;
-  } */
+  .servicios {
+    padding: 3.5rem 0.5rem;
+  }
+
   .serviciosText h2 {
     font-size: 30px;
   }

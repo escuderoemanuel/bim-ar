@@ -54,7 +54,7 @@
   .inicio {
     height: 451px;
     background-position: 50%;
-    /* padding-top: 90px; */
+    padding: 3.5rem 0.5rem;
   }
 
   .inicioContainer {
