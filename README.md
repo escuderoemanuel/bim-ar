@@ -34,3 +34,7 @@ _In the browser, go to the following path_
 - [BoxIcons] (https://boxicons.com/) - Icons library
 - [GoogleFonts] (https://fonts.google.com/) - Text Fonts
 - [Vite] (https://vitejs.dev/) - Compilation tool
+
+### Security Update
+
+- Updated Vite Version to update rollup version
